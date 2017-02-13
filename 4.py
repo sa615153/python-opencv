@@ -10,7 +10,7 @@ img2 = cv2.imread('img3.jpg',cv2.IMREAD_GRAYSCALE)
 # cv2.imwrite('flower.jpg',img)
 what1 = cv2.imshow('image',img)
 what2 = cv2.imshow('image2',img2)
-
+# show 两个窗口
 print type(what1)
 print type(what2)
 
