@@ -92,3 +92,7 @@ ENV/
 
 *.jpg
 *.wmv
+
+*.png
+*.mp4
+*.avi

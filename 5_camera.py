@@ -29,7 +29,7 @@ while(True):
 
     # cv2.waitKey()
 
-    if cv2.waitKey(1000)&0xFF ==ord('q'):
+    if cv2.waitKey(1000)&0xFF ==ord('q'):  # ka yi miao
         break
     #
 cap.release()
