@@ -15,5 +15,9 @@ cv2.namedWindow('image',cv2.WINDOW_NORMAL)
 cv2.line(img2,(0,0),(511,511),(255,0,0),5)
 cv2.rectangle(img2,(384,0),(510,128),(0,255,0),3)
 cv2.circle(img2,(447,63), 63, (0,0,255), -1)
+cv2.ellipse(img2,(256,256),(100,50),0,0,180,255,-1)
+
+
+
 cv2.imshow('512',img2)
 cv2.waitKey(0)
