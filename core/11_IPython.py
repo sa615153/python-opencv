@@ -15,4 +15,5 @@ In [17]: %timeit y=z*z
 In [19]: %timeit y=np.square(z)
 1000000 loops, best of 3: 1.16 us per loop
 
+http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_core/py_optimization/py_optimization.html#additional-resources
 '''
