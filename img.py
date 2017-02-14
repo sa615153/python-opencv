@@ -22,5 +22,4 @@ cv2.destroyAllWindows()
 
 img3 = img[:,:,::-1]
 img4 = img[..., ::-1]
-img5 = img[:, :, ::-1]
-img6 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+img5 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)

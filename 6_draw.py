@@ -23,8 +23,8 @@ cv2.ellipse(img2,(256,256),(100,50),0,0,180,255,-1)
 cv2.imshow('image',img2)
 cv2.waitKey(0)
 
-pts=np.array([[10,5],[20,30],[70,20],[50,10]], np.int32)
-pts=pts.reshape((-1,1,2))
+pts=np.array([[10,5],[20,30],[70,20],[50,10]], np.int32)  #  二维数组，并不是点
+pts=pts.reshape((-1,1,2))      #  ？行1列，每个点两个数据，点
 cv2.polylines(img2,[pts],True,(0,255,255))
 
 cv2.imshow('image',img2)
