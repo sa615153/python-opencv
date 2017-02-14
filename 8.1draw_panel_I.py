@@ -59,3 +59,4 @@ while(1):
 
 cv2.destroyAllWindows()
 
+# 响应事件 -〉 img -〉不断显示 -修改全局bgr -〉 响应事件
