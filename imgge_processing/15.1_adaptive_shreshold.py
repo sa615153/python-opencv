@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv2.imread('../tmp.jpg',0)
+img = cv2.imread('../img1.jpg',0)
 img = cv2.medianBlur(img,5)
 
 ret,th1 = cv2.threshold(img,127,255,cv2.THRESH_BINARY)
@@ -20,3 +20,12 @@ for i in xrange(4):
     plt.title(titles[i])
     plt.xticks([]),plt.yticks([])
 plt.show()
+
+cv2.namedWindow('h',cv2.WINDOW_NORMAL)
+cv2.imshow('h',th3)
+cv2.waitKey(0)
+
+h2=cv2.resize(th3,None,fx=0.25,fy=0.25,interpolation=cv2.INTER_CUBIC)
+cv2.imshow('h',h2)
+cv2.waitKey(0)
+cv2.imwrite('img1.1.jpg',h2)
