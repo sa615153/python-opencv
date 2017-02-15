@@ -41,6 +41,7 @@ cv2.waitKey(0)          #
 # 取 roi 中与 mask 中不为零的值对应的像素的值，其他值为 0
 # 注意这里必须有 mask=mask 或者 mask=mask_inv, 其中的 mask= 不能忽略
 img1_bg = cv2.bitwise_and(roi,roi,mask=mask)
+img1_bg = cv2.bitwise_and
 
 
 # ----------------------#
