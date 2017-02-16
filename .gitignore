@@ -90,11 +90,12 @@ ENV/
 # Rope project settings
 .ropeproject
 
-*.jpg
+#*.jpg
 *.wmv
 
-*.png
+#*.png
 *.mp4
 *.avi
 
-*workspace.xml
+.idea/workspace.xml
+.idea/opencv-python-book.iml
