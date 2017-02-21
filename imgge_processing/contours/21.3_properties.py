@@ -55,8 +55,8 @@ cv2.drawContours(mask,[cnt],0,255,-1)
 cv2.imshow('drawContours',mask)
 cv2.waitKey(0)
 
-# Returns a tuple of arrays, one for each dimension of a,
-# containing the indices of the non-zero elements in that dimension.
+# Returns a tuple of arrays, one for each dimension of matrix,
+# containing the 索引indices of the non-zero elements in that dimension.
 # The result of this is always a 2-D array, with a row for
 # each non-zero element.
 # To group the indices by element, rather than dimension, use:
@@ -64,9 +64,11 @@ cv2.waitKey(0)
 # >>> x = np.eye(3)
 # >>> x
 # array([[ 1., 0., 0.],
-# [ 0., 1., 0.],
-# [ 0., 0., 1.]])
+#        [ 0., 1., 0.],
+#        [ 0., 0., 1.]])
 # >>> np.nonzero(x)
+
+# 横维012是1，零行一行二行       纵维012是1，零列一列二列
 # (array([0, 1, 2]), array([0, 1, 2]))
 # >>> x[np.nonzero(x)]
 # array([ 1., 1., 1.])

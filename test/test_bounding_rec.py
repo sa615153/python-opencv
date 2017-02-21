@@ -43,4 +43,3 @@ cv2.imshow('minAreaRect',img3)
 cv2.waitKey(0)
 
 
-

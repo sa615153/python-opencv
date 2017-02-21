@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8421ae-65b6-478c-b07f-a7fd4666b2fc" name="Default" comment="before contours">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/contours/21.2_features.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/contours/21.3_properties.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/contours/21_contours.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_bounding_rec.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/make_a_picture.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/matplotlib.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/np.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/4.01.py" afterPath="$PROJECT_DIR$/4.01_cv2_to_matplotlib.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/10.1_bitwise_threshold.py" afterPath="$PROJECT_DIR$/core/10.1_bitwise_threshold_bg_fg.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img_9split_13colorspace.py" afterPath="$PROJECT_DIR$/cv2_img_9split_13colorspace.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/take_a_picture.py" afterPath="$PROJECT_DIR$/tools/take_a_picture.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/np2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5.2_save_video.py" afterPath="$PROJECT_DIR$/5.2_save_video.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/9_basic_operation_property.py" afterPath="$PROJECT_DIR$/core/9_basic_operation_property.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgge_processing/18_edge_gradients.py" afterPath="$PROJECT_DIR$/imgge_processing/18_edge_gradients.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgge_processing/19.11_canny_camera_example.py" afterPath="$PROJECT_DIR$/imgge_processing/19.11_canny_camera_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp.py" afterPath="$PROJECT_DIR$/tmp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgge_processing/contours/21.3_properties.py" afterPath="$PROJECT_DIR$/imgge_processing/contours/21.3_properties.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_bounding_rec.py" afterPath="$PROJECT_DIR$/test/test_bounding_rec.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +29,8 @@
       <file leaf-file-name="test_bounding_rec.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_bounding_rec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="40" column="46" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="46" />
+            <state relative-caret-position="373">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="e#25#43#0" expanded="true" />
               </folding>
@@ -55,7 +41,7 @@
       <file leaf-file-name="21.2_features.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.2_features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
+            <state relative-caret-position="-232">
               <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
               <folding>
                 <element signature="e#25#43#0" expanded="true" />
@@ -67,11 +53,21 @@
       <file leaf-file-name="21.3_properties.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.3_properties.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+            <state relative-caret-position="218">
+              <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
               <folding>
                 <element signature="e#25#43#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="np2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/np2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,9 +145,10 @@
         <option value="$PROJECT_DIR$/imgge_processing/contours/21_contours.py" />
         <option value="$PROJECT_DIR$/tmp.py" />
         <option value="$PROJECT_DIR$/5.2_save_video.py" />
-        <option value="$PROJECT_DIR$/test/test_bounding_rec.py" />
         <option value="$PROJECT_DIR$/cv2_img_9split_13colorspace.py" />
         <option value="$PROJECT_DIR$/imgge_processing/contours/21.2_features.py" />
+        <option value="$PROJECT_DIR$/tools/np2.py" />
+        <option value="$PROJECT_DIR$/test/test_bounding_rec.py" />
         <option value="$PROJECT_DIR$/imgge_processing/contours/21.3_properties.py" />
       </list>
     </option>
@@ -203,6 +200,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="python-opencv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-opencv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-opencv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,24 +294,7 @@
       <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv\tools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.21.3_properties">
-    <configuration default="false" name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-python-book" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tmp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.np2">
     <configuration default="false" name="21.2_features" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -365,6 +359,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/contours/21.3_properties.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="np2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-python-book" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/np2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -504,19 +515,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tmp" />
-      <item index="1" class="java.lang.String" itemvalue="Python.21.2_features" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test_bounding_rec" />
-      <item index="3" class="java.lang.String" itemvalue="Python.cv2_img_9split_13colorspace" />
-      <item index="4" class="java.lang.String" itemvalue="Python.21.3_properties" />
+      <item index="0" class="java.lang.String" itemvalue="Python.21.2_features" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_bounding_rec" />
+      <item index="2" class="java.lang.String" itemvalue="Python.cv2_img_9split_13colorspace" />
+      <item index="3" class="java.lang.String" itemvalue="Python.21.3_properties" />
+      <item index="4" class="java.lang.String" itemvalue="Python.np2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.21.3_properties" />
-        <item index="1" class="java.lang.String" itemvalue="Python.21.2_features" />
-        <item index="2" class="java.lang.String" itemvalue="Python.cv2_img_9split_13colorspace" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_bounding_rec" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tmp" />
+        <item index="0" class="java.lang.String" itemvalue="Python.np2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.21.3_properties" />
+        <item index="2" class="java.lang.String" itemvalue="Python.21.2_features" />
+        <item index="3" class="java.lang.String" itemvalue="Python.cv2_img_9split_13colorspace" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_bounding_rec" />
       </list>
     </recent_temporary>
   </component>
@@ -666,11 +677,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/j_noise.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/j.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -861,16 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/np.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#48#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imgge_processing/14.3_perspective_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -992,7 +988,7 @@
         <state relative-caret-position="1450">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <element signature="e#25#43#0" expanded="true" />
+            <element signature="e#25#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1002,7 +998,7 @@
         <state relative-caret-position="325">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1030,7 +1026,7 @@
         <state relative-caret-position="143">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="e#71#89#0" expanded="true" />
+            <element signature="e#71#89#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1059,16 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_bounding_rec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="40" column="46" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="46" />
-          <folding>
-            <element signature="e#25#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cv2_img_9split_13colorspace.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1077,9 +1063,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tools/np.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/np2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_bounding_rec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.2_features.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
+        <state relative-caret-position="-232">
           <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
           <folding>
             <element signature="e#25#43#0" expanded="true" />
@@ -1089,8 +1101,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.3_properties.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        <state relative-caret-position="218">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
           <folding>
             <element signature="e#25#43#0" expanded="true" />
           </folding>
