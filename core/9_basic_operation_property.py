@@ -32,6 +32,7 @@ print img.shape
 # Total number of pixels
 print img.size
 print img.shape[0]*img.shape[1]
+print "img.shape[0]*img.shape[1]*3"
 print img.shape[0]*img.shape[1]*3
 print img.dtype
 

@@ -4,7 +4,7 @@
 # 一阶将上坡区数值改为斜率（较大值），别处平坦的地方为0（较小）  00000123333333333 3 2 10000
 # 二阶姜上坡区的开始处标为二阶导，后续上坡区为0                  00000110000000000 0-1-10000
 # 二阶导更靠近边缘，更细
-# 详见dell书签learning
+# 详见dell书签learning，http://blog.csdn.net/xiaowei_cqu/article/details/7829481
 
 import cv2
 import numpy as np

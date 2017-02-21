@@ -23,3 +23,6 @@ cv2.destroyAllWindows()
 img3 = img[:,:,::-1]
 img4 = img[..., ::-1]
 img5 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
+rows,cols = img.shape[:2]
+print rows, cols

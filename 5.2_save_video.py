@@ -4,6 +4,9 @@ import cv2
 cap = cv2.VideoCapture(1)
 
 # Define the codec and create VideoWriter object
+# cv3
+# fourcc = cv2.VideoWriter_fourcc(*'XVID')
+# cv2
 fourcc = cv2.cv.FOURCC(*'XVID')
 out = cv2.VideoWriter('output.avi',fourcc, 20.0, (640,480))
 
