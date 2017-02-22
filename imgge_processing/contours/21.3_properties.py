@@ -5,11 +5,11 @@ import cv2
 
 # 矩
 img = cv2.imread('../../bounding_rec3.png',0)
-img3 = cv2.imread('../../bounding_rec3.png',3)
+img3 = cv2.imread('../../bounding_rec3.png',0)
 
 ret,thresh = cv2.threshold(img,100,255,0)
 img_copy = thresh.copy()
-contours,hierarchy = cv2.findContours(thresh, 1, 2)
+thresh,contours,hierarchy = cv2.findContours(thresh, 1, 2)
 cnt = contours[0]
 M = cv2.moments(cnt)
 
@@ -46,13 +46,15 @@ equi_diameter = np.sqrt(4*area/np.pi)
 # 掩模和像素点 Mask and Pixel Points
 
 # 有时我们需要构成对象的所有像素点，我们可以这样做：
+
+# 从黑图制模
 mask = np.zeros(img3.shape,np.uint8)
 cv2.imshow('mask',mask)
 cv2.waitKey(0)
 
 # 这里一定要使用参数-1, 绘制填充的的轮廓,,若为3，则厚度为3，不会填充
-cv2.drawContours(mask,[cnt],0,255,-1)
-cv2.imshow('drawContours',mask)
+mask = cv2.drawContours(mask,[cnt],0,255,-1)
+cv2.imshow('drawContours_mask',mask)
 cv2.waitKey(0)
 
 # Returns a tuple of arrays, one for each dimension of matrix,
@@ -77,5 +79,43 @@ cv2.waitKey(0)
 # [1, 1],
 # [2, 2]])
 
+# 获得像素点
 pixelpoints = np.transpose(np.nonzero(mask))
-#pixelpoints = cv2.findNonZero(mask)
+# pixelpoints = cv2.findNonZero(mask)
+
+
+# Maximum Value, Minimum Value and their locations
+
+cv2.imshow('img',img)
+cv2.waitKey(0)
+
+# 这里出的问题，img已经被改变，不能用，img3原来是3通道，也不能用，总之，保证是没被修改过的0通道图
+min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(img3,mask = mask)
+print min_val,max_val,min_loc,max_loc
+
+
+# 平均颜色及平均灰度
+
+img = cv2.imread('../../tmp.jpg',0)
+img3 = cv2.imread('../../tmp.jpg',3)
+
+# 做黑图
+mask = np.zeros(img.shape,np.uint8)
+# 画1
+mask = cv2.drawContours(mask,[cnt],0,255,-1)
+cv2.imshow('tmp_mask',mask)
+cv2.waitKey(0)
+
+# mask为1的像素才被考虑在内
+mean_val = cv2.mean(img ,mask = mask)
+print mean_val
+
+# 极点
+leftmost = tuple(cnt[cnt[:,:,0].argmin()][0])
+rightmost = tuple(cnt[cnt[:,:,0].argmax()][0])
+topmost = tuple(cnt[cnt[:,:,1].argmin()][0])
+bottommost = tuple(cnt[cnt[:,:,1].argmax()][0])
+
+
+
+
