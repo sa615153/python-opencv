@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import cv2
 import numpy as np
-from matplotlib import pyplot as plt
+from matplotlib_1 import pyplot as plt
 
 BLUE = [255,0,0]
 

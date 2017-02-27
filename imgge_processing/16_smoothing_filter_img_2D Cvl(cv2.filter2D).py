@@ -2,7 +2,7 @@
 
 import cv2
 import numpy as np
-from matplotlib import pyplot as plt
+from matplotlib_1 import pyplot as plt
 img = cv2.imread('../opencv_logo.png')
 kernel = np.ones((5,5),np.float32)/25
 #cv.Filter2D(src, dst, kernel, anchor=(-1, -1))

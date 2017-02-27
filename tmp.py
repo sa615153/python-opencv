@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib_1.pyplot as plt
 import cv2
 
 x = np.arange(0, 5, 0.1);

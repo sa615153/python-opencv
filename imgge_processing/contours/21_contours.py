@@ -5,7 +5,7 @@
 
 import numpy as np
 import cv2
-from matplotlib import pyplot as plt
+from matplotlib_1 import pyplot as plt
 
 
 # how to find contours of a binary image:

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 import cv2
-from matplotlib import pyplot as plt
+from matplotlib_1 import pyplot as plt
 print 1
 img = cv2.imread('img1.jpg',cv2.IMREAD_GRAYSCALE)
 img2 = cv2.imread('img3.jpg',cv2.IMREAD_GRAYSCALE)

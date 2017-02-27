@@ -8,7 +8,7 @@
 
 import cv2
 import numpy as np
-from matplotlib import pyplot as plt
+from matplotlib_1 import pyplot as plt
 
 img=cv2.imread('../dave.jpg',0)
 #cv2.CV_64F 输出图像的深度（数据类型），可以使用-1, 与原图像保持一致 np.uint8

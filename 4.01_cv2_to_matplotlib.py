@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-from matplotlib import pyplot as plt
+from matplotlib_1 import pyplot as plt
 
 img = cv2.imread('img2.jpg',0)
 # plt.imshow(img,cmap='gray',interpolation='bicubic')

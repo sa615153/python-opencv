@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib_1.pyplot as plt
 
 img = cv2.imread('img1.jpg')
 b,g,r = cv2.split(img)
