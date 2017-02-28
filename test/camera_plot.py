@@ -5,6 +5,7 @@
 
 import numpy as np
 import cv2
+from matplotlib import pyplot as plt
 
 cap = cv2.VideoCapture(0)
 
@@ -14,23 +15,19 @@ while(True):
     # capture frame by frame
     ret, frame = cap.read()
 
-    # print cap.get(3)
-    # print cap.get(4)
-    #
-    # cap.set(3,100)
-    # cap.set(4,100)
-
     print 'ret = '+ str(ret)
     # #operations on frame
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+    color = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     #
     # display result frame
-    cv2.imshow('frame',gray)
+    plt.imshow(color)
 
-    # cv2.waitKey()
+    plt.xticks([])
+    plt.yticks([])
+    plt.show()
+    # plt.pause(5)
 
-    if cv2.waitKey(5)&0xFF ==ord('q'):  #
-        break
-    #
 cap.release()
 cv2.destroyAllWindows()

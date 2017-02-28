@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import cv2
 import numpy as np
+from matplotlib import pyplot as plt
+from cStringIO import StringIO
 
 cap = cv2.VideoCapture(0)
 
@@ -12,10 +14,20 @@ while(1):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     equ = cv2.equalizeHist(gray)
 
+
+    plt.hist(frame.ravel(), 256, [0, 256])
+    buffer_ = StringIO()
+    plt.savefig(buffer_, format="png", bbox_inches='tight', pad_inches=0)
+    buffer_.seek(0)
+    img_array = np.asarray(bytearray(buffer_.read()), dtype=np.uint8)
+    hist = cv2.imdecode(img_array, 0)
+
+    cv2.imshow('hist',hist)
+
     res = np.hstack(( gray, equ))
     cv2.imshow('res',res)
 
-    k = cv2.waitKey(5) & 0xFF
+    k = cv2.waitKey(1000) & 0xFF
     if k == 27:
         break
 
