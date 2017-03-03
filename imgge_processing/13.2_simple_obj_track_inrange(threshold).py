@@ -2,6 +2,9 @@
 import cv2
 import numpy as np
 
+# 用hsv图做mask，显示的时候还是bgr图
+
+
 cap = cv2.VideoCapture(0)
 
 while(1):
