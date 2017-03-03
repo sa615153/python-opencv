@@ -6,19 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8421ae-65b6-478c-b07f-a7fd4666b2fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2Dhist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2dhist_matplotlib.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/histogram/22.3_2D_hist.notes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/trackbar_setscale.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/np.funcs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/np3_indices.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/np4_boolops.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/np5_multiply.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/np6_ravel().py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/histogram/res.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roses.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_numpy.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection.py" afterPath="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgge_processing/13.2_simple_obj_track_inrange(threshold).py" afterPath="$PROJECT_DIR$/imgge_processing/13.2_simple_obj_track_inrange(threshold).py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgge_processing/histogram/22.3_2D_hist.py" afterPath="$PROJECT_DIR$/imgge_processing/histogram/22.3_2D_hist.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,22 +28,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="np6_ravel().py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/np6_ravel().py">
+      <file leaf-file-name="22.4_backprojection_numpy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_numpy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="900">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+              <folding>
+                <element signature="e#106#116#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="22.4_backprojection.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection.py">
+      <file leaf-file-name="22.4_backprojection_opencv.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="339">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+              <folding>
+                <element signature="e#25#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/imgge_processing/16_smoothing_img_2D Cvl(cv2.filter2D).py" />
         <option value="$PROJECT_DIR$/imgge_processing/17_Morphological_trans.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py" />
@@ -123,6 +118,7 @@
         <option value="$PROJECT_DIR$/imgge_processing/histogram/22.3_2D_hist.py" />
         <option value="$PROJECT_DIR$/tools/np6_ravel().py" />
         <option value="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py" />
       </list>
     </option>
   </component>
@@ -266,15 +262,16 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv\apps" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv\tools" />
       <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv" />
+      <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv\apps" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.22.3_2D_hist">
+  <component name="RunManager" selected="Python.22.4_backprojection_opencv">
     <configuration default="false" name="np4_boolops" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -288,23 +285,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/np4_boolops.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="trackbar_setscale" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-python-book" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/trackbar_setscale.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -356,6 +336,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/histogram/22.3_2D_hist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="22.4_backprojection_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgge_processing/histogram" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-python-book" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -496,18 +493,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.np4_boolops" />
-      <item index="1" class="java.lang.String" itemvalue="Python.trackbar_setscale" />
-      <item index="2" class="java.lang.String" itemvalue="Python.np5_multiply" />
-      <item index="3" class="java.lang.String" itemvalue="Python.np3_indices" />
-      <item index="4" class="java.lang.String" itemvalue="Python.22.3_2D_hist" />
+      <item index="1" class="java.lang.String" itemvalue="Python.np5_multiply" />
+      <item index="2" class="java.lang.String" itemvalue="Python.np3_indices" />
+      <item index="3" class="java.lang.String" itemvalue="Python.22.3_2D_hist" />
+      <item index="4" class="java.lang.String" itemvalue="Python.22.4_backprojection_opencv" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.22.3_2D_hist" />
-        <item index="1" class="java.lang.String" itemvalue="Python.np4_boolops" />
-        <item index="2" class="java.lang.String" itemvalue="Python.np3_indices" />
-        <item index="3" class="java.lang.String" itemvalue="Python.np5_multiply" />
-        <item index="4" class="java.lang.String" itemvalue="Python.trackbar_setscale" />
+        <item index="0" class="java.lang.String" itemvalue="Python.22.4_backprojection_opencv" />
+        <item index="1" class="java.lang.String" itemvalue="Python.22.3_2D_hist" />
+        <item index="2" class="java.lang.String" itemvalue="Python.np4_boolops" />
+        <item index="3" class="java.lang.String" itemvalue="Python.np3_indices" />
+        <item index="4" class="java.lang.String" itemvalue="Python.np5_multiply" />
       </list>
     </recent_temporary>
   </component>
@@ -609,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488275847009</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="histogram">
+      <created>1488523014877</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1488523014877</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -628,10 +632,10 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16159695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3541114" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3541114" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24968314" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -685,7 +689,8 @@
     <MESSAGE value="hist_equa" />
     <MESSAGE value="2.27" />
     <MESSAGE value="2.28" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.28" />
+    <MESSAGE value="histogram" />
+    <option name="LAST_COMMIT_MESSAGE" value="histogram" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -697,39 +702,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ndarray.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.2_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-857">
-          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.3_properties.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/19_canny.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.5_hierarchy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.4_more_functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -877,14 +849,6 @@
     <entry file="file://$PROJECT_DIR$/HSV_3.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.2_histogram_equalization,py.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3250">
-          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imgge_processing/13.2_simple_obj_track_inrange(threshold).py">
@@ -1062,14 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/16_smoothing_filter_img_2D Cvl(cv2.filter2D).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/np6_ravel().py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1078,11 +1034,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection.py">
+    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.2_histogram_equalization,py.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="328">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/16.2_four_blur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="46" column="47" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/16_smoothing_filter_img_2D Cvl(cv2.filter2D).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_numpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="e#106#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messi5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/res.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roses.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
