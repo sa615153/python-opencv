@@ -6,10 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8421ae-65b6-478c-b07f-a7fd4666b2fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/histogram/res.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roses.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_numpy.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection.py" afterPath="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/img_transform/FT.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="22.4_backprojection_opencv.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="22.4_backprojection_opencv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
+            <state relative-caret-position="576">
               <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+              <folding>
+                <element signature="e#25#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FT.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imgge_processing/img_transform/FT.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
               </folding>
@@ -68,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/imgge_processing/17_Morphological_trans.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py" />
         <option value="$PROJECT_DIR$/imgge_processing/19_canny.py" />
@@ -119,6 +127,7 @@
         <option value="$PROJECT_DIR$/tools/np6_ravel().py" />
         <option value="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection.py" />
         <option value="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/img_transform/FT.py" />
       </list>
     </option>
   </component>
@@ -215,6 +224,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img_transform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-opencv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-opencv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imgge_processing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="histogram" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -271,7 +298,7 @@
       <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv\apps" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.22.4_backprojection_opencv">
+  <component name="RunManager" selected="Python.FT">
     <configuration default="false" name="np4_boolops" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,23 +312,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/np4_boolops.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="np5_multiply" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-python-book" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/np5_multiply.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -353,6 +363,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FT" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgge_processing/img_transform" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-python-book" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/img_transform/FT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -493,18 +520,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.np4_boolops" />
-      <item index="1" class="java.lang.String" itemvalue="Python.np5_multiply" />
-      <item index="2" class="java.lang.String" itemvalue="Python.np3_indices" />
-      <item index="3" class="java.lang.String" itemvalue="Python.22.3_2D_hist" />
-      <item index="4" class="java.lang.String" itemvalue="Python.22.4_backprojection_opencv" />
+      <item index="1" class="java.lang.String" itemvalue="Python.np3_indices" />
+      <item index="2" class="java.lang.String" itemvalue="Python.22.3_2D_hist" />
+      <item index="3" class="java.lang.String" itemvalue="Python.22.4_backprojection_opencv" />
+      <item index="4" class="java.lang.String" itemvalue="Python.FT" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.22.4_backprojection_opencv" />
-        <item index="1" class="java.lang.String" itemvalue="Python.22.3_2D_hist" />
-        <item index="2" class="java.lang.String" itemvalue="Python.np4_boolops" />
-        <item index="3" class="java.lang.String" itemvalue="Python.np3_indices" />
-        <item index="4" class="java.lang.String" itemvalue="Python.np5_multiply" />
+        <item index="0" class="java.lang.String" itemvalue="Python.FT" />
+        <item index="1" class="java.lang.String" itemvalue="Python.22.4_backprojection_opencv" />
+        <item index="2" class="java.lang.String" itemvalue="Python.22.3_2D_hist" />
+        <item index="3" class="java.lang.String" itemvalue="Python.np4_boolops" />
+        <item index="4" class="java.lang.String" itemvalue="Python.np3_indices" />
       </list>
     </recent_temporary>
   </component>
@@ -613,7 +640,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488523014877</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fourier Transform">
+      <created>1488541635183</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1488541635183</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -690,7 +724,8 @@
     <MESSAGE value="2.27" />
     <MESSAGE value="2.28" />
     <MESSAGE value="histogram" />
-    <option name="LAST_COMMIT_MESSAGE" value="histogram" />
+    <MESSAGE value="Fourier Transform" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fourier Transform" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -702,14 +737,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.4_more_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imgge_processing/18_edge_gradients.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="875">
@@ -985,7 +1012,7 @@
         <state relative-caret-position="2425">
           <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
           <folding>
-            <element signature="e#135#153#0" expanded="true" />
+            <element signature="e#135#153#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -995,7 +1022,7 @@
         <state relative-caret-position="425">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="e#25#43#0" expanded="true" />
+            <element signature="e#25#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1005,7 +1032,7 @@
         <state relative-caret-position="159">
           <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
-            <element signature="e#24#34#0" expanded="true" />
+            <element signature="e#24#34#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1085,8 +1112,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="576">
           <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/img_transform/FT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="e#25#35#0" expanded="true" />
           </folding>
