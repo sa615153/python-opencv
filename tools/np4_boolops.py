@@ -15,11 +15,25 @@ b = a > 5
 print '---b=a>5---'
 print '---b---'
 print b
+
 print '---a[b]---这是个视图,一维'
 print a[b]
 a[b] = 100
 print 'a[b] = 100  print a'
 print a
+
+c = np.where(a >= 10)
+print "-----c=np.where(a >= 5)---"
+print c
+print "---type(c)-----------------"
+print type(c)
+print "--c[::-1]------------------"
+print c[::-1]
+print "-------zip(*c[::-1])-------"
+print zip(*c[::-1])
+# zip(*  内部zip
+
+
 
 
 img = cv2.imread('../2Dhist.png')

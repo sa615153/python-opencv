@@ -39,3 +39,4 @@ res = np.vstack((target,thresh,res))
 cv2.imwrite('res.jpg',res)
 cv2.imshow('res',res)
 cv2.waitKey(0)
+
