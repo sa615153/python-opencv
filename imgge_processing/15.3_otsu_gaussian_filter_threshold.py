@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 
+# 在双峰图中的波谷找一个合适的值作为阈值，做threshold
+
 import cv2
 import numpy as np
-from matplotlib_1 import pyplot as plt
+from matplotlib import pyplot as plt
 img = cv2.imread('../j_noise.png',0)
 # global thresholding
 ret1,th1 = cv2.threshold(img,127,255,cv2.THRESH_BINARY)

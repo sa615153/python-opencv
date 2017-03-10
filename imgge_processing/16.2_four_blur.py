@@ -3,7 +3,7 @@
 
 import cv2
 import numpy as np
-from matplotlib_1 import pyplot as plt
+from matplotlib import pyplot as plt
 img = cv2.imread('../tmp.jpg')
 
 # 平均
@@ -43,6 +43,7 @@ plt.show()                                                  #
 # -----------------------------------------------------------
 
 # 双边过滤
+# 特点:模糊的同时保留边界
 # only those pixels with intensities similar to that of the central pixel (‘intensity neighbors’) are included to compute the blurred intensity value
 # http://people.csail.mit.edu/sparis/bf_course/
 

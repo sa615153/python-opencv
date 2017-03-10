@@ -6,10 +6,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8421ae-65b6-478c-b07f-a7fd4666b2fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/25_hough_line_transform.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/26_hough_line_transform.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/messi_face.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rose_red.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rose_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roses.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/water_coins.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/27_watershed.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgge_processing/19_canny.py" afterPath="$PROJECT_DIR$/imgge_processing/19_canny.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py" afterPath="$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgge_processing/16.2_four_blur.py" afterPath="$PROJECT_DIR$/imgge_processing/16.2_four_blur.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,45 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="22.4_backprojection_numpy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_numpy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-              <folding>
-                <element signature="e#106#116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="np4_boolops.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/np4_boolops.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6_draw.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6_draw.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dave.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dave.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="25_hough_line_transform.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imgge_processing/25_hough_line_transform.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="21.2_features.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="21.2_features.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.2_features.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-300">
@@ -112,21 +78,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="draw_contours.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/draw_contours.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="15.3_otsu_gaussian_filter_threshold.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              <folding>
+                <element signature="e#59#69#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="22.4_backprojection_opencv.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py">
+      <file leaf-file-name="17_Morphological_trans.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imgge_processing/17_Morphological_trans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+            <state relative-caret-position="400">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="27_watershed.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imgge_processing/27_watershed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding>
-                <element signature="e#25#35#0" expanded="true" />
+                <element signature="e#25#43#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="16.2_four_blur.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imgge_processing/16.2_four_blur.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+              <folding>
+                <element signature="e#26#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="15_threshold_simple.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imgge_processing/15_threshold_simple.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,9 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/9_basic_operation_property.py" />
-        <option value="$PROJECT_DIR$/tools/make_a_picture.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/16.2_four_blur.py" />
         <option value="$PROJECT_DIR$/tools/np.py" />
         <option value="$PROJECT_DIR$/tools/matplotlib.py" />
         <option value="$PROJECT_DIR$/imgge_processing/contours/21_contours.py" />
@@ -198,6 +198,9 @@
         <option value="$PROJECT_DIR$/imgge_processing/19_canny.py" />
         <option value="$PROJECT_DIR$/imgge_processing/hough_line_transform.py" />
         <option value="$PROJECT_DIR$/imgge_processing/26_hough_line_transform.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/16.2_four_blur.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/27_watershed.py" />
       </list>
     </option>
   </component>
@@ -332,58 +335,7 @@
       <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv\apps" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.19_canny">
-    <configuration default="false" name="FT" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgge_processing/img_transform" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-python-book" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/img_transform/FT.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="18_edge_gradients" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgge_processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-python-book" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/18_edge_gradients.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="24_Template_matching" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgge_processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-python-book" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/24_Template_matching.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.27_watershed">
     <configuration default="false" name="np4_boolops" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -414,6 +366,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/19_canny.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="15.3_otsu_gaussian_filter_threshold" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgge_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-python-book" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="16.2_four_blur" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgge_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-python-book" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/16.2_four_blur.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="27_watershed" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgge_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-python-book" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/27_watershed.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -553,19 +556,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.FT" />
-      <item index="1" class="java.lang.String" itemvalue="Python.18_edge_gradients" />
-      <item index="2" class="java.lang.String" itemvalue="Python.24_Template_matching" />
-      <item index="3" class="java.lang.String" itemvalue="Python.np4_boolops" />
-      <item index="4" class="java.lang.String" itemvalue="Python.19_canny" />
+      <item index="0" class="java.lang.String" itemvalue="Python.np4_boolops" />
+      <item index="1" class="java.lang.String" itemvalue="Python.19_canny" />
+      <item index="2" class="java.lang.String" itemvalue="Python.15.3_otsu_gaussian_filter_threshold" />
+      <item index="3" class="java.lang.String" itemvalue="Python.16.2_four_blur" />
+      <item index="4" class="java.lang.String" itemvalue="Python.27_watershed" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.19_canny" />
-        <item index="1" class="java.lang.String" itemvalue="Python.np4_boolops" />
-        <item index="2" class="java.lang.String" itemvalue="Python.24_Template_matching" />
-        <item index="3" class="java.lang.String" itemvalue="Python.18_edge_gradients" />
-        <item index="4" class="java.lang.String" itemvalue="Python.FT" />
+        <item index="0" class="java.lang.String" itemvalue="Python.27_watershed" />
+        <item index="1" class="java.lang.String" itemvalue="Python.16.2_four_blur" />
+        <item index="2" class="java.lang.String" itemvalue="Python.15.3_otsu_gaussian_filter_threshold" />
+        <item index="3" class="java.lang.String" itemvalue="Python.19_canny" />
+        <item index="4" class="java.lang.String" itemvalue="Python.np4_boolops" />
       </list>
     </recent_temporary>
   </component>
@@ -695,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488880469776</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="watershed">
+      <created>1489057055993</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1489057055993</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -716,18 +726,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3541114" sideWeight="0.50253487" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3541114" sideWeight="0.49746513" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24968314" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3541114" sideWeight="0.49746513" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -773,39 +783,19 @@
     <MESSAGE value="2.28" />
     <MESSAGE value="histogram" />
     <MESSAGE value="Fourier Transform" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fourier Transform" />
+    <MESSAGE value="watershed" />
+    <option name="LAST_COMMIT_MESSAGE" value="watershed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/take_a_picture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/np.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/matplotlib_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/make_a_picture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -967,14 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.1_find_draw_mask.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -1007,24 +989,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/16.2_four_blur.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="46" column="47" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imgge_processing/16_smoothing_filter_img_2D Cvl(cv2.filter2D).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/17_Morphological_trans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2741">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1073,7 +1041,7 @@
         <state relative-caret-position="700">
           <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
           <folding>
-            <element signature="e#25#35#0" expanded="true" />
+            <element signature="e#25#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1083,7 +1051,7 @@
         <state relative-caret-position="900">
           <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
           <folding>
-            <element signature="e#106#116#0" expanded="true" />
+            <element signature="e#106#116#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1149,6 +1117,57 @@
         <state relative-caret-position="-300">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/16.2_four_blur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+          <folding>
+            <element signature="e#26#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/15_threshold_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <element signature="e#59#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/17_Morphological_trans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/water_coins.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/27_watershed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
