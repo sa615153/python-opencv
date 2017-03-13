@@ -5,10 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/imgge_processing/contours/21.4_more_functions.py" line="88" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c8421ae-65b6-478c-b07f-a7fd4666b2fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/28_grabcut.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1c8421ae-65b6-478c-b07f-a7fd4666b2fc" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -697,7 +694,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489135495846</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="grabcut">
+      <created>1489401147271</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1489401147271</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
