@@ -6,15 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8421ae-65b6-478c-b07f-a7fd4666b2fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/messi_face.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rose_red.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rose_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roses.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/water_coins.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/27_watershed.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgge_processing/28_grabcut.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py" afterPath="$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgge_processing/16.2_four_blur.py" afterPath="$PROJECT_DIR$/imgge_processing/16.2_four_blur.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,46 +25,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="25_hough_line_transform.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgge_processing/25_hough_line_transform.py">
+      <file leaf-file-name="np4_boolops.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/np4_boolops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-524">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="309">
+              <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="28_grabcut.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imgge_processing/28_grabcut.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
-                <element signature="e#119#129#0" expanded="true" />
+                <element signature="e#25#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="26_hough_line_transform.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgge_processing/26_hough_line_transform.py">
+      <file leaf-file-name="7_mouse.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7_mouse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-              <folding>
-                <element signature="e#26#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="19_canny.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgge_processing/19_canny.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-              <folding>
-                <element signature="e#633#643#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="21.2_features.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.2_features.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -100,14 +79,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="27_watershed.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="27_watershed.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imgge_processing/27_watershed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
+            <state relative-caret-position="1709">
               <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding>
                 <element signature="e#25#43#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="np5_multiply.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/np5_multiply.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="np6_ravel().py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/np6_ravel().py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tools/np.py" />
         <option value="$PROJECT_DIR$/tools/matplotlib.py" />
         <option value="$PROJECT_DIR$/imgge_processing/contours/21_contours.py" />
         <option value="$PROJECT_DIR$/tmp.py" />
@@ -201,6 +199,7 @@
         <option value="$PROJECT_DIR$/imgge_processing/16.2_four_blur.py" />
         <option value="$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py" />
         <option value="$PROJECT_DIR$/imgge_processing/27_watershed.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/28_grabcut.py" />
       </list>
     </option>
   </component>
@@ -250,20 +249,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="python-opencv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,7 +320,7 @@
       <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv\apps" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.27_watershed">
+  <component name="RunManager" selected="Python.28_grabcut">
     <configuration default="false" name="np4_boolops" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,23 +334,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/np4_boolops.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="19_canny" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgge_processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-python-book" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/19_canny.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -417,6 +385,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/27_watershed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="28_grabcut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgge_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-python-book" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/28_grabcut.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -557,18 +542,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.np4_boolops" />
-      <item index="1" class="java.lang.String" itemvalue="Python.19_canny" />
-      <item index="2" class="java.lang.String" itemvalue="Python.15.3_otsu_gaussian_filter_threshold" />
-      <item index="3" class="java.lang.String" itemvalue="Python.16.2_four_blur" />
-      <item index="4" class="java.lang.String" itemvalue="Python.27_watershed" />
+      <item index="1" class="java.lang.String" itemvalue="Python.15.3_otsu_gaussian_filter_threshold" />
+      <item index="2" class="java.lang.String" itemvalue="Python.16.2_four_blur" />
+      <item index="3" class="java.lang.String" itemvalue="Python.27_watershed" />
+      <item index="4" class="java.lang.String" itemvalue="Python.28_grabcut" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.27_watershed" />
-        <item index="1" class="java.lang.String" itemvalue="Python.16.2_four_blur" />
-        <item index="2" class="java.lang.String" itemvalue="Python.15.3_otsu_gaussian_filter_threshold" />
-        <item index="3" class="java.lang.String" itemvalue="Python.19_canny" />
-        <item index="4" class="java.lang.String" itemvalue="Python.np4_boolops" />
+        <item index="0" class="java.lang.String" itemvalue="Python.28_grabcut" />
+        <item index="1" class="java.lang.String" itemvalue="Python.np4_boolops" />
+        <item index="2" class="java.lang.String" itemvalue="Python.27_watershed" />
+        <item index="3" class="java.lang.String" itemvalue="Python.16.2_four_blur" />
+        <item index="4" class="java.lang.String" itemvalue="Python.15.3_otsu_gaussian_filter_threshold" />
       </list>
     </recent_temporary>
   </component>
@@ -705,7 +690,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489057055993</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="grabcut">
+      <created>1489135495846</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1489135495846</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -784,7 +776,8 @@
     <MESSAGE value="histogram" />
     <MESSAGE value="Fourier Transform" />
     <MESSAGE value="watershed" />
-    <option name="LAST_COMMIT_MESSAGE" value="watershed" />
+    <MESSAGE value="grabcut" />
+    <option name="LAST_COMMIT_MESSAGE" value="grabcut" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -796,13 +789,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/make_a_picture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/draw_hist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -843,13 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_mouse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -907,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/np5_multiply.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/np3_indices.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -962,13 +934,6 @@
         <state relative-caret-position="134">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/np6_ravel().py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1056,14 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/np4_boolops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6_draw.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1097,7 +1054,7 @@
         <state relative-caret-position="175">
           <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding>
-            <element signature="e#26#36#0" expanded="true" />
+            <element signature="e#26#36#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1107,7 +1064,7 @@
         <state relative-caret-position="525">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
-            <element signature="e#633#643#0" expanded="true" />
+            <element signature="e#633#643#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1163,8 +1120,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imgge_processing/27_watershed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
+        <state relative-caret-position="1709">
           <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/np5_multiply.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/np6_ravel().py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/np4_boolops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_mouse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/28_grabcut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="e#25#43#0" expanded="true" />
           </folding>
