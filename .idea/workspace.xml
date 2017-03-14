@@ -5,7 +5,13 @@
     <bookmark url="file://$PROJECT_DIR$/imgge_processing/contours/21.4_more_functions.py" line="88" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c8421ae-65b6-478c-b07f-a7fd4666b2fc" name="Default" comment="" />
+    <list default="true" id="1c8421ae-65b6-478c-b07f-a7fd4666b2fc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chessboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature detection and description/harris_corner_detection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature detection and description/subpix_accuracy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgge_processing/27_watershed.py" afterPath="$PROJECT_DIR$/imgge_processing/27_watershed.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +38,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="28_grabcut.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="28_grabcut.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imgge_processing/28_grabcut.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="300">
               <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="e#25#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="harris_corner_detection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature detection and description/harris_corner_detection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="e#25#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subpix_accuracy.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/feature detection and description/subpix_accuracy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-166">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding>
+                <element signature="e#25#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +109,8 @@
       <file leaf-file-name="27_watershed.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imgge_processing/27_watershed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1709">
-              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state relative-caret-position="334">
+              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
               <folding>
                 <element signature="e#25#43#0" expanded="true" />
               </folding>
@@ -108,28 +138,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="16.2_four_blur.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgge_processing/16.2_four_blur.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-              <folding>
-                <element signature="e#26#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="15_threshold_simple.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgge_processing/15_threshold_simple.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -146,8 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tools/matplotlib.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/contours/21_contours.py" />
         <option value="$PROJECT_DIR$/tmp.py" />
         <option value="$PROJECT_DIR$/5.2_save_video.py" />
         <option value="$PROJECT_DIR$/cv2_img_9split_13colorspace.py" />
@@ -195,8 +201,10 @@
         <option value="$PROJECT_DIR$/imgge_processing/26_hough_line_transform.py" />
         <option value="$PROJECT_DIR$/imgge_processing/16.2_four_blur.py" />
         <option value="$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/27_watershed.py" />
         <option value="$PROJECT_DIR$/imgge_processing/28_grabcut.py" />
+        <option value="$PROJECT_DIR$/feature detection and description/harris_corner_detection.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/27_watershed.py" />
+        <option value="$PROJECT_DIR$/feature detection and description/subpix_accuracy.py" />
       </list>
     </option>
   </component>
@@ -273,11 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="imgge_processing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contours" />
+              <option name="myItemId" value="feature detection and description" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,7 +321,7 @@
       <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv\apps" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.28_grabcut">
+  <component name="RunManager" selected="Python.harris_corner_detection">
     <configuration default="false" name="np4_boolops" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,23 +335,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/np4_boolops.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="15.3_otsu_gaussian_filter_threshold" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgge_processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-python-book" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -399,6 +386,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/28_grabcut.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="harris_corner_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/feature detection and description" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-python-book" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feature detection and description/harris_corner_detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -539,18 +543,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.np4_boolops" />
-      <item index="1" class="java.lang.String" itemvalue="Python.15.3_otsu_gaussian_filter_threshold" />
-      <item index="2" class="java.lang.String" itemvalue="Python.16.2_four_blur" />
-      <item index="3" class="java.lang.String" itemvalue="Python.27_watershed" />
-      <item index="4" class="java.lang.String" itemvalue="Python.28_grabcut" />
+      <item index="1" class="java.lang.String" itemvalue="Python.16.2_four_blur" />
+      <item index="2" class="java.lang.String" itemvalue="Python.27_watershed" />
+      <item index="3" class="java.lang.String" itemvalue="Python.28_grabcut" />
+      <item index="4" class="java.lang.String" itemvalue="Python.harris_corner_detection" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.28_grabcut" />
-        <item index="1" class="java.lang.String" itemvalue="Python.np4_boolops" />
-        <item index="2" class="java.lang.String" itemvalue="Python.27_watershed" />
-        <item index="3" class="java.lang.String" itemvalue="Python.16.2_four_blur" />
-        <item index="4" class="java.lang.String" itemvalue="Python.15.3_otsu_gaussian_filter_threshold" />
+        <item index="0" class="java.lang.String" itemvalue="Python.harris_corner_detection" />
+        <item index="1" class="java.lang.String" itemvalue="Python.28_grabcut" />
+        <item index="2" class="java.lang.String" itemvalue="Python.np4_boolops" />
+        <item index="3" class="java.lang.String" itemvalue="Python.27_watershed" />
+        <item index="4" class="java.lang.String" itemvalue="Python.16.2_four_blur" />
       </list>
     </recent_temporary>
   </component>
@@ -701,7 +705,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489401147271</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feature detection">
+      <created>1489401168473</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1489401168473</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -781,7 +792,8 @@
     <MESSAGE value="Fourier Transform" />
     <MESSAGE value="watershed" />
     <MESSAGE value="grabcut" />
-    <option name="LAST_COMMIT_MESSAGE" value="grabcut" />
+    <MESSAGE value="feature detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature detection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -793,20 +805,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/draw_hist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/res.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1086,7 +1084,7 @@
         <state relative-caret-position="195">
           <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
           <folding>
-            <element signature="e#26#36#0" expanded="true" />
+            <element signature="e#26#36#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1120,16 +1118,6 @@
     <entry file="file://$PROJECT_DIR$/water_coins.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/27_watershed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1709">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#43#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/np5_multiply.py">
@@ -1166,10 +1154,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imgge_processing/28_grabcut.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="300">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="e#25#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature detection and description/harris_corner_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/27_watershed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature detection and description/subpix_accuracy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

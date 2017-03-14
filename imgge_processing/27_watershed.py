@@ -45,8 +45,10 @@ unknown = cv2.subtract(sure_bg,sure_fg)
 
 # -----------------------------------------------------------------
 # Marker labelling
+
 # 由试验得知，markers1每个连通域分别标值0,1,2,3。。。背景为0
 ret, markers1 = cv2.connectedComponents(sure_fg)
+
 # cv2.imshow('markers1',markers1)
 # cv2.waitKey(0)
 # #######################################
