@@ -3,7 +3,8 @@
 import cv2
 import numpy as np
 
-filename = 'chessboard2.jpg'
+filename = '../subpix_accuracy.png'
+# filename = '../subpix_accuracy2.png'
 img = cv2.imread(filename)
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
@@ -30,12 +31,22 @@ criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.001)
 # 返回值由角点坐标组成的一个数组（而非图像）
 corners = cv2.cornerSubPix(gray,np.float32(centroids),(5,5),(-1,-1),criteria)
 
+print centroids
+print '-------------------'
+print corners
+
 # Now draw them
 
-res = np.hstack((centroids,corners))
-# np.int0 可以用来省略小数点后面的数字（非四㮼五入）。
+res = np.hstack((centroids,corners))  # stacking images side-by-side
+# np.int0 可以用来省略小数点后面的数字（非四舍五入）。
 res = np.int0(res)
-img[res[:,1],res[:,0]]=[0,0,255]
+
+print "-----------res----------"
+print res
+
+img[res[:,1],res[:,0]]=[0,0,255]  # img 是先取行后取列，即点的纵坐标，点的横坐标
 img[res[:,3],res[:,2]] = [0,255,0]
 
-cv2.imwrite('subpixel5.png',img)
+cv2.namedWindow('subpix',cv2.WINDOW_NORMAL)
+cv2.imshow('subpix',img)
+cv2.waitKey(0)

@@ -24,7 +24,7 @@ while(1):
 
     cv2.imshow('hist',hist)
 
-    res = np.hstack(( gray, equ))
+    res = np.hstack(( gray, equ))  # stacking images side-by-side
     cv2.imshow('res',res)
 
     k = cv2.waitKey(1000) & 0xFF

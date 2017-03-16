@@ -126,7 +126,7 @@ img2 = cdf[img]
 
 img = cv2.imread('../../hist_equa.png',0)
 equ = cv2.equalizeHist(img)  # 就这一句
-res = np.hstack((img,equ)) #stacking images side-by-side
+res = np.hstack((img,equ)) # stacking images side-by-side
 cv2.imwrite('res.png',res)
 cv2.imshow('res',res)
 cv2.waitKey(0)

@@ -9,7 +9,7 @@ img3 = cv2.imread('../../bounding_rec3.png',3)
 
 ret,thresh = cv2.threshold(img,100,255,0)
 img_copy = thresh.copy()
-contours,hierarchy = cv2.findContours(thresh, 1, 2)
+img,contours,hierarchy = cv2.findContours(thresh, 1, 2)
 cnt = contours[0]
 M = cv2.moments(cnt)
 print cnt
@@ -66,9 +66,9 @@ print type(img)
 
 rect = cv2.minAreaRect(cnt)
 # cv3
-#box = cv2.boxPoints(rect)
+box = cv2.boxPoints(rect)
 # cv2
-box = cv2.cv.BoxPoints(rect)
+# box = cv2.cv.BoxPoints(rect)
 box = np.int0(box)
 print '--------'
 print box
@@ -109,9 +109,9 @@ cv2.waitKey(0)
 # 直线拟合
 rows,cols = img3.shape[:2]
 # cv3
-# [vx,vy,x,y] = cv2.fitLine(cnt, cv2.DIST_L2,0,0.01,0.01)
+[vx,vy,x,y] = cv2.fitLine(cnt, cv2.DIST_L2,0,0.01,0.01)
 # cv2
-[vx,vy,x,y] = cv2.fitLine(cnt, cv2.cv.CV_DIST_L2,0,0.01,0.01)
+# [vx,vy,x,y] = cv2.fitLine(cnt, cv2.cv.CV_DIST_L2,0,0.01,0.01)
 
 lefty = int((-x*vy/vx) + y)
 righty = int(((cols-x)*vy/vx)+y)
