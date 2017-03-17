@@ -7,7 +7,10 @@ img = cv2.imread(filename)
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 gray = np.float32(gray)
 # 输入图像必须是 float32，最后一个参数在 0.04 到 0.05 之间
+
 dst = cv2.cornerHarris(gray,2,3,0.04)
+# the result of Harris Corner Detection is a grayscale image with these scores
+
 #result is dilated for marking the corners, not important
 dst = cv2.dilate(dst,None)
 # Threshold for an optimal value, it may vary depending on the image.
