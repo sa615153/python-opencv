@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/4.01_cv2_to_matplotlib.py" line="0" mnemonic="0" />
-    <bookmark url="file://$PROJECT_DIR$/imgge_processing/contours/21.4_more_functions.py" line="88" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8421ae-65b6-478c-b07f-a7fd4666b2fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/subpix_accuracy2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature detection and description/SIFT.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature detection and description/harris_corner_detection.py" afterPath="$PROJECT_DIR$/feature detection and description/harris_corner_detection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature detection and description/BRIEF.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature detection and description/FAST.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature detection and description/ORB.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature detection and description/SURF.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/opencv-python-book.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature detection and description/SIFT.py" afterPath="$PROJECT_DIR$/feature detection and description/SIFT.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,71 +27,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="harris_corner_detection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature detection and description/harris_corner_detection.py">
+      <file leaf-file-name="FAST.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature detection and description/FAST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
               <folding>
-                <element signature="e#25#35#0" expanded="true" />
+                <element signature="e#25#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SIFT.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/feature detection and description/SIFT.py">
+      <file leaf-file-name="BRIEF.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature detection and description/BRIEF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="325">
+              <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
               <folding>
-                <element signature="e#27#37#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="h_subpix_accuracy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature detection and description/h_subpix_accuracy.py">
+      <file leaf-file-name="ORB.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/feature detection and description/ORB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            <state relative-caret-position="325">
+              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding>
-                <element signature="e#25#35#0" expanded="true" />
+                <element signature="e#1#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s_good_features_to_track.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature detection and description/s_good_features_to_track.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="e#381#399#0" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="fast_false.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature detection and description/fast_false.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="21.3_properties.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.3_properties.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="21.2_features.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.2_features.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2650">
-              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-              <folding />
-            </state>
+      <file leaf-file-name="fast_true.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature detection and description/fast_true.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -112,73 +93,51 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_bounding_rec.py" />
-        <option value="$PROJECT_DIR$/test/test_cv2_cv3.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/contours/21.3_properties.py" />
-        <option value="$PROJECT_DIR$/tools/cv2_img_9split_13colorspace.py" />
-        <option value="$PROJECT_DIR$/tools/np2.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/contours/21.4_cnt_defeats_data.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/contours/21.4_more_functions.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/contours/21.5_hierarchy.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/histogram/22.1_find_draw.py" />
-        <option value="$PROJECT_DIR$/tools/matplotlib2.py" />
-        <option value="$PROJECT_DIR$/tools/matplotlib2_ret-type.py" />
-        <option value="$PROJECT_DIR$/tools/matplot_ret_type.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/histogram/22.1_find_draw_mask.py" />
-        <option value="$PROJECT_DIR$/tools/matplotlib2_ret_type.py" />
+        <option value="$PROJECT_DIR$/4.01.py" />
+        <option value="$PROJECT_DIR$/5.py" />
+        <option value="$PROJECT_DIR$/5.1.py" />
+        <option value="$PROJECT_DIR$/5.2_save_video.py" />
+        <option value="$PROJECT_DIR$/6_draw_line.py" />
+        <option value="$PROJECT_DIR$/5.1_video_file.py" />
+        <option value="$PROJECT_DIR$/4.02_namedWindow.py" />
+        <option value="$PROJECT_DIR$/4.py" />
+        <option value="$PROJECT_DIR$/6_draw.py" />
+        <option value="$PROJECT_DIR$/7_mouse.py" />
         <option value="$PROJECT_DIR$/5_camera.py" />
-        <option value="$PROJECT_DIR$/test/camera_plot.py" />
-        <option value="$PROJECT_DIR$/tools/draw_hist.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/histogram/CLAHE.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/13.2_simple_obj_track_inrange(threshold).py" />
-        <option value="$PROJECT_DIR$/tools/np4.py" />
+        <option value="$PROJECT_DIR$/img.py" />
+        <option value="$PROJECT_DIR$/8_trackbar.py" />
+        <option value="$PROJECT_DIR$/8.1draw_panel.py" />
+        <option value="$PROJECT_DIR$/7.1draw_with_mouse_move.py" />
+        <option value="$PROJECT_DIR$/8.1draw_panel_I.py" />
         <option value="$PROJECT_DIR$/8.2draw_panel.py" />
-        <option value="$PROJECT_DIR$/test/trackbar_setscale.py" />
-        <option value="$PROJECT_DIR$/tools/np.funcs.py" />
-        <option value="$PROJECT_DIR$/tools/np3.py" />
-        <option value="$PROJECT_DIR$/tools/np5_multiply.py" />
-        <option value="$PROJECT_DIR$/tools/np3_indices.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/histogram/22.3_2D_hist.notes.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/histogram/22.3_2D_hist.py" />
-        <option value="$PROJECT_DIR$/tools/np6_ravel().py" />
-        <option value="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/img_transform/FT.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/18_edge_gradients.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/24_Template_matching.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/24.2_multi_matching.py" />
-        <option value="$PROJECT_DIR$/tools/np4_boolops.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/19_canny.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/hough_line_transform.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/26_hough_line_transform.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/16.2_four_blur.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/15.1_adaptive_shreshold.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/15_3otsu_gaussian_filter_threshold.py" />
+        <option value="$PROJECT_DIR$/tmp.py" />
+        <option value="$PROJECT_DIR$/core/11_performance.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/16_smoothing_img.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/16_smoothing_img_2D Cvl(cv2.filter2D).py" />
+        <option value="$PROJECT_DIR$/imgge_processing/17_Morphological_trans.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/28_grabcut.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/27_watershed.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/histogram/22.2_histogram_equalization,py.py" />
-        <option value="$PROJECT_DIR$/apps/camera_histogram_equalization.py" />
-        <option value="$PROJECT_DIR$/imgge_processing/contours/21.2_features.py" />
-        <option value="$PROJECT_DIR$/feature detection and description/subpix_accuracy.py" />
-        <option value="$PROJECT_DIR$/feature detection and description/s_good_features_to_track.py" />
-        <option value="$PROJECT_DIR$/feature detection and description/h_subpix_accuracy.py" />
-        <option value="$PROJECT_DIR$/feature detection and description/harris_corner_detection.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/16.2_four_blur.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/18_edge_gradients.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/19_canny.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/19_1canny_camera_example.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/19.11_canny_camera_example.py" />
+        <option value="$PROJECT_DIR$/imgge_processing/15.2_adaptive_shreshold.py" />
         <option value="$PROJECT_DIR$/feature detection and description/SIFT.py" />
+        <option value="$PROJECT_DIR$/feature detection and description/SURF.py" />
+        <option value="$PROJECT_DIR$/feature detection and description/FAST.py" />
+        <option value="$PROJECT_DIR$/feature detection and description/BRIEF.py" />
+        <option value="$PROJECT_DIR$/feature detection and description/ORB.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1600" />
-    <option name="height" value="870" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -199,77 +158,39 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
+              <option name="myItemId" value="opencv-python-book" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
+              <option name="myItemId" value="opencv-python-book" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
+              <option name="myItemId" value="opencv-python-book" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
+              <option name="myItemId" value="opencv-python-book" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="imgge_processing" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
+              <option name="myItemId" value="opencv-python-book" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imgge_processing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contours" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
+              <option name="myItemId" value="opencv-python-book" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="feature detection and description" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-opencv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,22 +201,229 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../graduate" />
+    <property name="last_opened_file_path" value="C:/Python27_64/python.exe" />
     <property name="prop_add_unversioned_files" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv\tools" />
-      <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv" />
-      <recent name="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv\apps" />
-    </key>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/opencv-python-book.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/4.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/5.2_save_video.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/5_camera.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/9.3_border.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/9_basic_operation_property.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/13.2_simple_obj_track_inrange(threshold).py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/14.2_move_rotation_affine_perspective.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/14.3_perspective_test.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/15.2_adaptive_shreshold.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/15_threshold_simple.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/16.2_four_blur.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/16_smoothing_filter_img_2D Cvl(cv2.filter2D).py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/18_edge_gradients.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/19.11_canny_camera_example.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tmp.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/2Dhist.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/2dhist_matplotlib.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/4.01_cv2_to_matplotlib.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CLAHE.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/13.2_simple_obj_track_inrange(threshold).py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/camera_histogram_equalization.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bounding_rec.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bounding_rec2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bounding_rec3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/chessboard.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/10.1_bitwise_threshold_bg_fg.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/draw_contours.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/feature detection and description/SIFT.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/feature detection and description/h_subpix_accuracy.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/feature detection and description/harris_corner_detection.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/feature detection and description/s_good_features_to_track.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/hierarchy_RETR_CCOMP.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/hist_equa.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/home.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/24.2_multi_matching.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/24_Template_matching.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/25_hough_line_transform.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/26_hough_line_transform.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/27_watershed.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/28_grabcut.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/contours/21.2_features.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/contours/21.3_properties.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/contours/21.4_cnt_defeats_data.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/contours/21.4_more_functions.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/contours/21.5_hierarchy.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/contours/21_contours.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/histogram/22.1_find_draw_mask.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/histogram/22.2_histogram_equalization,py.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/histogram/22.3_2D_hist.notes.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/histogram/22.3_2D_hist.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_numpy.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/histogram/CLAHE.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/histogram/res.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/histogram/res.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/imgge_processing/img_transform/FT.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/messi_face.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ndarray.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ndarray2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/rose_red.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/rose_red.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/roses.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/roses.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/subpix_accuracy.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/subpix_accuracy2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/test/camera_plot.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/test/test_bounding_rec.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/test/test_cv2_cv3.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/test/trackbar_setscale.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/cv2_img_9split_13colorspace.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/draw_hist.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/make_a_picture.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/mat_ret_type_mat2img_array.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/matplotlib_1.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/np.funcs.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/np.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/np2.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/np3_indices.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/np4_boolops.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/np5_multiply.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/np6_ravel().py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tools/take_a_picture.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/water_coins.jpg</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/4.01.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/10.1_bitwise_threshold.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/img_9split_13colorspace.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/take_a_picture.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="Python.SIFT">
+  <component name="RunManager" selected="Python.ORB">
+    <configuration default="false" name="test_cv2_cv3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv-python-book" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_cv2_cv3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="harris_corner_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,7 +441,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="subpix_accuracy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="FAST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -325,29 +453,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
-      <option name="SCRIPT_NAME" value="C:\Users\JPang3\Desktop\beijing\opencv\opencv_projects\python-opencv\feature detection and description\h_subpix_accuracy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feature detection and description/FAST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="21.2_features" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgge_processing/contours" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="opencv-python-book" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgge_processing/contours/21.2_features.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="s_good_features_to_track" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="BRIEF" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -359,12 +470,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feature detection and description/s_good_features_to_track.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feature detection and description/BRIEF.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="SIFT" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="ORB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -376,7 +487,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="opencv-python-book" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feature detection and description/SIFT.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feature detection and description/ORB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -516,19 +627,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.harris_corner_detection" />
-      <item index="1" class="java.lang.String" itemvalue="Python.subpix_accuracy" />
-      <item index="2" class="java.lang.String" itemvalue="Python.21.2_features" />
-      <item index="3" class="java.lang.String" itemvalue="Python.s_good_features_to_track" />
-      <item index="4" class="java.lang.String" itemvalue="Python.SIFT" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test_cv2_cv3" />
+      <item index="1" class="java.lang.String" itemvalue="Python.harris_corner_detection" />
+      <item index="2" class="java.lang.String" itemvalue="Python.FAST" />
+      <item index="3" class="java.lang.String" itemvalue="Python.BRIEF" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ORB" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.SIFT" />
-        <item index="1" class="java.lang.String" itemvalue="Python.harris_corner_detection" />
-        <item index="2" class="java.lang.String" itemvalue="Python.s_good_features_to_track" />
-        <item index="3" class="java.lang.String" itemvalue="Python.subpix_accuracy" />
-        <item index="4" class="java.lang.String" itemvalue="Python.21.2_features" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ORB" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BRIEF" />
+        <item index="2" class="java.lang.String" itemvalue="Python.FAST" />
+        <item index="3" class="java.lang.String" itemvalue="Python.harris_corner_detection" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_cv2_cv3" />
       </list>
     </recent_temporary>
   </component>
@@ -595,112 +706,7 @@
       <option name="project" value="LOCAL" />
       <updated>1487328943489</updated>
     </task>
-    <task id="LOCAL-00008" summary="contours properties">
-      <created>1487670901831</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1487670901831</updated>
-    </task>
-    <task id="LOCAL-00009" summary="contours more functions">
-      <created>1487761860690</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1487761860690</updated>
-    </task>
-    <task id="LOCAL-00010" summary="hist_equa">
-      <created>1487926857793</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1487926857793</updated>
-    </task>
-    <task id="LOCAL-00011" summary="2.27">
-      <created>1488197263587</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1488197263587</updated>
-    </task>
-    <task id="LOCAL-00012" summary="2.28">
-      <created>1488275847009</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1488275847009</updated>
-    </task>
-    <task id="LOCAL-00013" summary="histogram">
-      <created>1488523014877</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1488523014877</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Fourier Transform">
-      <created>1488541635183</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1488541635183</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Fourier Transform">
-      <created>1488799175338</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1488799175338</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Fourier Transform">
-      <created>1488880469776</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1488880469776</updated>
-    </task>
-    <task id="LOCAL-00017" summary="watershed">
-      <created>1489057055993</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1489057055993</updated>
-    </task>
-    <task id="LOCAL-00018" summary="grabcut">
-      <created>1489135495846</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1489135495846</updated>
-    </task>
-    <task id="LOCAL-00019" summary="grabcut">
-      <created>1489401147271</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1489401147271</updated>
-    </task>
-    <task id="LOCAL-00020" summary="feature detection">
-      <created>1489401168473</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1489401168473</updated>
-    </task>
-    <task id="LOCAL-00021" summary="accuracy corner">
-      <created>1489485116695</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1489485116695</updated>
-    </task>
-    <task id="LOCAL-00022" summary="after accuracy">
-      <created>1489660096884</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1489660096884</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -713,16 +719,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="870" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16325223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32796487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3541114" sideWeight="0.50253487" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35365853" sideWeight="0.49746513" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24968314" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30599368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -731,7 +737,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -743,11 +749,11 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41511935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30901858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16159695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -771,378 +777,368 @@
     <MESSAGE value="after threshold" />
     <MESSAGE value="after morphological" />
     <MESSAGE value="before contours" />
-    <MESSAGE value="contours properties" />
-    <MESSAGE value="contours more functions" />
-    <MESSAGE value="hist_equa" />
-    <MESSAGE value="2.27" />
-    <MESSAGE value="2.28" />
-    <MESSAGE value="histogram" />
-    <MESSAGE value="Fourier Transform" />
-    <MESSAGE value="watershed" />
-    <MESSAGE value="grabcut" />
-    <MESSAGE value="feature detection" />
-    <MESSAGE value="accuracy corner" />
-    <MESSAGE value="after accuracy" />
-    <option name="LAST_COMMIT_MESSAGE" value="after accuracy" />
+    <option name="LAST_COMMIT_MESSAGE" value="before contours" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="4" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/CLAHE.py">
+    <entry file="file://$PROJECT_DIR$/tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7.1draw_with_mouse_move.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8_trackbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.2draw_panel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.1draw_panel_I.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/trackbar_setscale.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2Dhist.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/np.funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1141">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/np2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="226" column="0" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/np3_indices.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/mat_ret_type_mat2img_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/cv2_img_9split_13colorspace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.3_2D_hist.notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2425">
-          <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.3_2D_hist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.1_find_draw_mask.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/res.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/roses.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/16_smoothing_filter_img_2D Cvl(cv2.filter2D).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/18_edge_gradients.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/img_transform/FT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/messi5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/24.2_multi_matching.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/24_Template_matching.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_opencv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.4_backprojection_numpy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_draw.py">
+    <entry file="file://$PROJECT_DIR$/../../Python27_64/Lib/site-packages/matplotlib/artist.py" />
+    <entry file="file://$PROJECT_DIR$/../../Python27_64/Lib/site-packages/matplotlib/artist.py" />
+    <entry file="file://$PROJECT_DIR$/messigray.png" />
+    <entry file="file://$PROJECT_DIR$/4.02_namedWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draw_contours.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dave.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/25_hough_line_transform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-524">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/26_hough_line_transform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/19_canny.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/16.2_four_blur.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/15_threshold_simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/17_Morphological_trans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/water_coins.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/np5_multiply.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/np6_ravel().py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/np4_boolops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/7_mouse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/28_grabcut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/27_watershed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/camera_histogram_equalization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/histogram/22.2_histogram_equalization,py.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="128" column="57" selection-start-line="128" selection-start-column="27" selection-end-line="128" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.3_properties.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature detection and description/subpixel5.png" />
-    <entry file="file://$PROJECT_DIR$/imgge_processing/contours/21.2_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2650">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature detection and description/h_subpix_accuracy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature detection and description/s_good_features_to_track.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#381#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature detection and description/harris_corner_detection.py">
+    <entry file="file://$PROJECT_DIR$/img.py" />
+    <entry file="file://$PROJECT_DIR$/5.2_save_video.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.1_video_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="55" lean-forward="false" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/9_basic_operation_property.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/11_performance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/14_geometric_trans_resize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/14.3_perspective_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/17_Morphological_trans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1393">
+          <caret line="123" column="37" lean-forward="false" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27_64/Lib/site-packages/matplotlib/pyplot.py" />
+    <entry file="file://$PROJECT_DIR$/7.1draw_with_mouse_move.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/13.3_find_HSV_values.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/13.2_simple_obj_track_inrange(threshold).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/13_change_colorspaces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/18_edge_gradients.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
           <folding>
-            <element signature="e#25#35#0" expanded="true" />
+            <marker date="1489827584531" expanded="true" signature="303:369" ph="import ..." />
+            <marker date="1489827584531" expanded="true" signature="1095:1363" ph="..." />
+            <marker date="1489827584531" expanded="true" signature="1475:1606" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.1draw_panel_I.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8_trackbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/19_1canny_camera_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.2draw_panel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="92" column="6" lean-forward="true" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/img1.1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/19.11_canny_camera_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#123#133#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/16_smoothing_filter_img_2D Cvl(cv2.filter2D).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1489827584527" expanded="true" signature="171:668" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/16.2_four_blur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="57" column="61" lean-forward="false" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/15_threshold_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/15.3_otsu_gaussian_filter_threshold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/15.2_adaptive_shreshold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_cv2_cv3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feature detection and description/SIFT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature detection and description/harris_corner_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgge_processing/19_canny.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature detection and description/SURF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
           <folding>
-            <element signature="e#27#37#0" expanded="true" />
+            <element signature="e#35#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature detection and description/FAST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature detection and description/fast_false.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature detection and description/fast_true.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature detection and description/BRIEF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature detection and description/ORB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
