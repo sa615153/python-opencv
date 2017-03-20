@@ -1,0 +1,292 @@
+使用CSS时，通常要避免使用标记语言的这些特性，以便所有的文档样式信息保存在同一地方。
+strong {color: red;}
+
+
+
+网页开发者定义的样式、网页阅读者定义的样式、浏览器的默认样式。
+对继承的元素来说，子元素自身的样式优先级高于从父级继承来的样式。
+
+如果多于一个规则指定了相同的属性值都应用到一个元素上，CSS规定拥有更高确定度的选择器优先级更高。
+ID选择器 > 类选择器更具确定度, 而类选择器 > 标签选择器（tag selector）更具确定度。
+如果样式中包含冲突的规则，且它们具有相同的确定度。那么，后出现的规则优先级高。
+
+
+
+你也可以将多个选择器组合起来构成更确定的选择器。
+
+比如，选择器.key 选中所有class属性为 key的元素. 选择器 p.key 选中所有class属性为key的<p> 元素。
+
+标签选择器
+p {color: blue}
+类选择器
+.key {
+  color: green;
+}
+id选择器
+#principal {
+  font-weight: bolder;
+}
+其他属性
+[type='button'] 选中所有 type 属性为 button 的元素。
+
+伪类和伪元素（pseudo-elements）不仅可以让你为符合某种文档树结构的元素指定样式，
+还可以为符合某些外部条件的元素指定样式：浏览历史(比如是否访问过 (:visited)， 内容状态(如 :checked ), 鼠标位置 (如:hover).
+	语法
+selector:pseudo-class {
+  property: value;
+}
+
+https://www.w3.org/TR/selectors/#selectors
+
+
+
+你还可以使用星号（*）来表示”任意元素“。
+常见的基于关系的选择器
+选择器	选择的元素
+A E	元素A的任一后代元素E (后代节点指A的子节点，子节点的子节点，以此类推)
+A > E	元素A的任一子元素E(也就是直系后代)
+E:first-child	任一是其父母结点的第一个子节点的元素E
+B + E	元素B的任一下一个兄弟元素E
+B ~ E	B元素后面的拥有共同父元素的兄弟元素E
+
+
+
+选取器组 分组，逗号隔
+/* color for headings */
+h1, h2, h3 {color: navy;}
+
+
+
+多属性，分号隔，分号结尾
+.carrot {
+  color: orange;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+
+逐级精确，类似p.class1，空格隔
+#demo-table tbody th:after {
+  content: ":";
+}
+#demo-table tfoot th {
+  color: blue;
+}
+
+
+
+p {font: italic 75%/125% "Comic Sans MS", cursive;}
+这条规则定义了字体的几个属性，使整个段落文本都变成斜体。
+文本字体设置为 Comic Sans MS，假如该字体不被浏览器支持则使用默认字体：cursive，逗号隔
+这条规则还把bold和small-caps这些效果给去掉了（设置它们的值为normal）。
+字体大小设置为每个段落父元素字体大小的3/4，行高设置为125%（比常规的间隔稍大一些）。
+
+使用 font-size 属性指定字体的大小。
+使用 line-height 属性指定文本的行间距。
+/*字号 相对的字号
+small,medium和large。你也可以使用相对父元素字号大小的值来设置，比如：smaller,larger,150%或1.5em。
+1“em”等于1个字母“m”的宽度（相对于父元素字号大小）;因此1.5em就是1.5倍的父元素字号大小
+font: 200% serif;
+       也可以指定一个实际的大小，比如14px
+*/
+
+单独的 text-decoration 就可以为文本指定其他风格，比如underline或line-through。你也可以把值设置成none，把这些风格取消掉。
+
+使用font-style: italic;指定文本为斜体;
+
+使用 font-weight: bold;指定文本加粗;
+
+使用 font-variant: small-caps;指定文本为小型大写字母;
+
+如果我们想单独设置某个效果失效，我们可以把其相应的属性设置为normal或inherit.
+
+中文字体
+Windows：font-family:微软雅黑;
+Mac OS：font-family:"Songti SC";
+
+https://www.w3.org/TR/CSS21/fonts.html
+https://www.w3.org/TR/CSS21/text.html
+
+
+
+大范围设置
+对于一个简单的页面，我们可以设置 <body>元素的字体，然后页面中的其他元素继承这个设置。
+body {font: 16px "Comic Sans MS", cursive;}
+
+
+
+------------------------------------
+标签元素前边加文本"Reference: "
+.ref:before {
+  font-weight: bold;
+  color: navy;
+  content: "Reference: ";
+}
+
+加图片
+a.glossary:after {content: " " url("../images/glossary-icon.gif");}
+#sidebar-box {background: url("../images/glossary.jpg") no-repeat;}
+------------------------------------
+
+
+
+
+背景
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/background
+
+背景图默认是 repeat（重复）的，无需明确指出。图片在水平和垂直方向重复，最终呈现出横格纸的效果：
+
+
+
+list
+liststyle属性  https://developer.mozilla.org/zh-CN/docs/Web/CSS/list-style
+
+无序  ul
+li.open {list-style: circle;}
+li.closed {list-style: disc;}
+html
+<ul>
+  <li class="open">Lorem ipsum</li>
+  <li class="closed">Dolor sit</li>
+  <li class="closed">Amet consectetuer</li>
+  <li class="open">Magna aliquam</li>
+  <li class="closed">Autem veleum</li>
+</ul>
+
+
+有序  ol
+ol.info {list-style: upper-latin;}  <li> 元素继承了ol的样式：ABCDE
+
+
+
+计数器（more than list）
+h3.numbered {counter-reset: mynum;}
+
+p.numbered:before {
+  content: counter(mynum) ": ";
+  counter-increment: mynum;
+  font-weight: bold;}
+
+
+  h4:before{
+  content:counter(mynum)": ";
+  counter-increment: mynum;
+  }/*still 3 if no counter-increment, 4 if yes whatever the position of it */
+
+  a.numbered:before{
+   counter-increment: mynum;
+  content: counter(mynum)": ";
+  }/* 5 */
+
+
+
+
+  盒模型
+h3 {
+  border-top: 4px solid #7c7; /* 中绿 */
+  background-color: #efe;     /* 浅绿 */
+  color: #050;                /* 深绿 */
+  }
+
+img {border: 2px solid #ccc;}
+
+p.remark {
+  border: 2px solid red;
+  padding: 4px;
+  margin-left: 24px;
+  }
+
+  h3.secondh3 {border-top: 1px solid gray;}
+
+  li {
+  list-style: lower-roman;
+  margin-bottom: 8px;
+  }
+
+  ul.ocean{
+  border: 10px solid lightblue;
+  width:  100px;
+  }
+
+
+
+
+  高阶布局
+  http://learnlayout.com/
+
+  布局
+  
+
+
+
+自适应：
+
+二、允许网页宽度自动调整
+在网页代码的头部，加入一行viewport元标签。
+　　<meta name="viewport" content="width=device-width, initial-scale=1" />
+viewport是网页默认的宽度和高度，上面这行代码的意思是，网页宽度默认等于屏幕宽度（width=device-width），
+原始缩放比例（initial-scale=1）为1.0，即网页初始大小占屏幕面积的100%。
+
+三、不使用绝对宽度
+CSS代码不能指定像素宽度：
+　　width:xxx px;
+只能指定百分比宽度：
+　　width: xx%;
+或者
+　　width:auto;
+
+四、字体也不能使用绝对大小（px），而只能使用相对大小（em）。
+　　body {
+　　　　font: normal 100% Helvetica, Arial, sans-serif;
+　　}
+h1 {
+　　　　font-size: 1.5em; 
+　　}
+small {
+　　　　font-size: 0.875em;
+　　}
+
+五、流动布局（fluid grid）
+"流动布局"的含义是，各个区块的位置都是浮动的，不是固定不变的。
+　　.main {
+　　　　float: right;
+　　　　width: 70%; 
+　　}
+　　.leftBar {
+　　　　float: left;
+　　　　width: 25%;
+　　}
+float的好处是，如果宽度太小，放不下两个元素，后面的元素会自动滚动到前面元素的下方，
+不会在水平方向overflow（溢出），避免了水平滚动条的出现。
+另外，绝对定位（position: absolute）的使用，也要非常小心。
+
+六、选择加载CSS
+"自适应网页设计"的核心，就是CSS3引入的Media Query模块。
+它的意思就是，自动探测屏幕宽度，然后加载相应的CSS文件。
+　　<link rel="stylesheet" type="text/css"
+　　　　media="screen and (max-device-width: 400px)"
+　　　　href="tinyScreen.css" />
+上面的代码意思是，如果屏幕宽度小于400像素（max-device-width: 400px），就加载tinyScreen.css文件。
+　　<link rel="stylesheet" type="text/css"
+　　　　media="screen and (min-width: 400px) and (max-device-width: 600px)"
+　　　　href="smallScreen.css" />
+如果屏幕宽度在400像素到600像素之间，则加载smallScreen.css文件。
+除了用html标签加载CSS文件，还可以在现有CSS文件中加载。
+　　@import url("tinyScreen.css") screen and (max-device-width: 400px);
+
+
+七、CSS的@media规则
+同一个CSS文件中，也可以根据不同的屏幕分辨率，选择应用不同的CSS规则。
+　　@media screen and (max-device-width: 400px) {
+　　　　.column {
+　　　　　　float: none;
+　　　　　　width:auto;
+　　　　}
+　　　　#sidebar {
+　　　　　　display:none;
+　　　　}
+　　}
+上面的代码意思是，如果屏幕宽度小于400像素，则column块取消浮动（float:none）、
+宽度自动调节（width:auto），sidebar块不显示（display:none）。
+
+

@@ -1,0 +1,387 @@
+gcloud config set compute/zone ZONE
+gcloud config unset compute/zone
+Alternatively, the zone can be stored in the environment variable CLOUDSDK_COMPUTE_ZONE
+sdk:https://cloud.google.com/sdk/gcloud/reference/compute/copy-files
+
+https://cloud.google.com/compute/docs/disks/performance
+\\bgc-nas002\iar_backup2\Transfer\PangJianRen\google
+
+远程gcloud
+https://cloud.google.com/sdk/docs/quickstart-windows
+安装问题：find os not recognized as an internal or external command
+解决办法：C:\WINDOWS\system32;加进环境变量path
+
+gcloud init 后，ideas project不识别，手动创建test project
+
+
+set default zone and region mannually
+https://cloud.google.com/compute/docs/gcloud-compute/
+
+use gcloud init to do this 
+make sure the compute enging api is enabled for your project
+https://console.developers.google.com/apis
+billing
+
+configure google storage https://cloud.google.com/storage/docs/gsutil/commands/config
+
+
+
+
+统一zone的必要性
+
+resizing:
+
+gcloud compute disks resize instance-1 --size=13GB --zone=us-west1-a -q
+
+
+attach必须在同一zone
+
+
+
+swich mode：
+detach - attach ro
+
+
+------------------------------------------------------------------------------------------------------------
+basic：
+以下命令来自api文档：
+https://cloud.google.com/sdk/gcloud/reference/compute/instances/attach-disk
+
+gcloud命令结构：
+https://cloud.google.com/sdk/gcloud/reference/
+gcloud GROUP | COMMAND 
+[--account=ACCOUNT] [--configuration=CONFIGURATION] [--flatten=[KEY,…]] [--format=FORMAT] [--help] 
+[--project=PROJECT_ID] [--quiet, -q] [--verbosity=VERBOSITY; default="warning"] [-h] [-v, --version] 
+[--log-http] [--trace-token=TRACE_TOKEN] [--no-user-output-enabled]
+
+
+
+以下磁盘：
+disk name：test-attach
+device name：test-attach
+mnt-dir：t-a
+
+detach：
+gcloud compute instances detach-disk test-attach-v1 --disk test-attach --zone=asia-east1-a
+
+attach:
+gcloud compute instances attach-disk test-attach-v2 --disk test-attach --zone=asia-east1-a
+gcloud compute instances attach-disk test-attach-v2 --disk test-attach --zone=asia-east1-a --device-name=test-attach
+attach时，vm可不开机
+
+attach-format-mount-chmod
+
+
+ssh:
+gcloud compute ssh test-attach-v2 --zone=asia-east1-a
+在v1不开机时,从bgc ssh v1，提示错误：not been allocated a external IP address
+从cloud shell，相同提示
+
+
+start:
+gcloud compute instances start test-attach-v2 --zone=asia-east1-a
+
+
+format:
+?sudo mkfs.ext4 -F -E lazy_itable_init=0,lazy_journal_init=0,discard /dev/disk/by-id/google-test-attach
+
+sudo mkfs.ext4 -F /dev/disk/by-id/google-p
+
+mkdir:
+sudo mkdir -p /mnt/disks/t-a
+
+mouunt:
+sudo mount -o discard,defaults /dev/disk/by-id/google-test-attach /mnt/disks/t-a
+
+chmod:
+sudo chmod 777 /mnt/disks/t-a
+sudo chmod a+w /mnt/disks/[MNT_DIR]
+---------------------------------------------
+auto-mount:   or dynamic create and delete  |
+---------------------------------------------
+/etc/fstab
+
+unmount:
+sudo umount /dev/disk/by-id/google-test-attach
+
+machine create:
+gcloud compute instances create irun-host --machine-type=f1-micro --image-family=centos-6 --image-project=centos-cloud --zone=asia-east1-a --scopes ideas-dynamic-drilling@appspot.gserviceaccount.com=cloud-platform --private-network-ip=10.140.0.9
+
+disk create:
+The contents of a disk can be moved to a different zone by snapshotting the disk (using gcloud compute disks snapshot) and creating a new disk using --source-snapshot in the desired zone,
+The contents of a disk can also be moved across project or zone by creating an image (using gcloud compute images create) and creating a new disk using --image in the desired project and/or zone
+gcloud compute disks create pd-auto-01 --zone=asia-east1-a --type=pd-standard --size=11GB 
+success
+
+disk delete:
+gcloud compute disks delete deletes one or more Google Compute Engine persistent disks. Disks can be deleted only if they are not being used by any virtual machine instances.
+gcloud compute disks delete pd-auto-01 --zone=asia-east1-a
+y/n?
+y
+success
+
+format:
+
+amount:
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+customed:
+
+1,create many vm, auto-mount,and stop most of them, when needed, start-auto-mount
+2,create vm as needed,when need more, create vm and pd,and attach and ssh and format and mount
+
+
+design:
+those mount format script:each node?（如何抵达？scp？预装？） or single irun script control all (include ssh)（expect没装）
+
+----------------------------------------------------------------------
+run script on irun vm:
+
+access control options
+https://cloud.google.com/compute/docs/access/
+If you have applications running on a virtual machine instance, and the application needs access to Compute Engine or other Google Cloud Platform 
+APIs,this page describes service accounts that can be used for this purpose.
+
+
+service account：
+A service account is a special account that can be used by services and applications running on your Google Compute Engine instance to 
+interact with other Google Cloud Platform APIs. 
+
+the level of access the service account has is determined by the combination of access scopes granted to the instance and IAM roles 
+granted to the service account
+
+Using the Compute Engine Default Service Account，Granting an IAM role to the default service account affects all instances that are running as the default service account
+
+access scope:
+you must still set access scopes when configuring up an instance to run as a service account.
+Access scopes work only if you have enabled the respective API on the project that the service account belongs to
+
+granting an access scope for Google Cloud Storage on a virtual machine instance allows the instance to call the Cloud 
+Storage API only if you have enabled the Cloud Storage API on the project,
+If the API is not enabled on the project, the access scope has no effect.(enable api的重要性)
+
+scope examples:
+https://developers.google.com/identity/protocols/googlescopes
+https://cloud.google.com/sdk/gcloud/reference/compute/instances/create  ctrl F --scope
+
+
+IAM:
+
+In addition to setting access scopes, you must grant the correct IAM roles to a service account to determine the level of access the account has. 
+
+each API method documentation wil also list the scopes required for that method
+
+https://cloud.google.com/iam/docs/understanding-roles
+https://cloud.google.com/compute/docs/access/iam
+
+------------------------------------------------------------------------
+Creating and Enabling Service Accounts for Instances:
+https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances
+
+create a new service account:
+https://cloud.google.com/iam/docs/creating-managing-service-accounts#creating_a_service_account
+gcloud iam service-accounts create irun-sa-01 --display-name "service account of irun on vm to manage cloud resources"(有创建权限，无点击PERMISSIONS权限)
+
+grant IAM roles:
+https://cloud.google.com/iam/docs/granting-roles-to-service-accounts#granting_access_to_a_service_account_for_a_resource(没有)
+https://cloud.google.com/iam/docs/granting-roles-to-service-accounts
+
+When granting IAM roles, you can treat a service account either as a resource or as an identity.
+
+Setting up a new instance to run as a service account：
+service account: ideas-dynamic-drilling@appspot.gserviceaccount.com
+
+------------------------------------------------
+https://cloud.google.com/sdk/gcloud/reference/compute/instances/create
+
+gcloud compute instances create irun-host
+--no-boot-disk-auto-delete
+--boot-disk-size=10GB   for restart
+--boot-disk-type=pd-standard      gcloud compute disk-types list
+
+--custom-cpu=CUSTOM_CPU
+--custom-memory=CUSTOM_MEMORY
+or
+--machine-type=f1-micro  default type is n1-standard-1    gcloud compute machine-types list
+
+--disk=[auto-delete=AUTO-DELETE],[boot=BOOT],[device-name=DEVICE-NAME],[mode=MODE],[name=NAME]  The disks specified must already exist
+
+--local-ssd=[device-name=DEVICE-NAME],[interface=INTERFACE]  Because local SSDs are located on the physical machine where your virtual machine instance is running, they can be created only during the instance creation process
+
+--no-address    If provided, the instances will not be assigned external IP addresses.
+
+?--image-project rhel-cloud
+?--image=centos-6-v20170110
+--image-family=centos-6
+
+--zone=asia-east1-a
+
+
+https://cloud.google.com/compute/docs/configure-instance-ip-addresses
+
+
+--private-network-ip=PRIVATE_NETWORK_IP  Specifies the RFC1918 IP to assign to the instance. The IP should be in the subnet or legacy network IP range     10.140.0.9
+If you are using a custom subnet mode network, you must also specify the subnet using the --subnet [SUBNET] parameter
+https://cloud.google.com/compute/docs/subnetworks?hl=en_US&_ga=1.234818078.1806054831.1483590361#subnetworks_and_instances
+gcloud compute networks subnets list
+--subnet subnet-us-central-192
+
+--scopes ideas-dynamic-drilling@appspot.gserviceaccount.com=cloud-platform
+
+
+
+gcloud compute instances create irun-host --machine-type=f1-micro --image-family=centos-6 --zone=asia-east1-a --scopes ideas-dynamic-drilling@appspot.gserviceaccount.com=cloud-platform
+error: projects/ideas-dynamic-drilling/global/images/family/centos-6 was not found
+
+gcloud compute instances create irun-host --machine-type=f1-micro --image-family=centos-6 --image-project=centos-cloud --zone=asia-east1-a --scopes ideas-dynamic-drilling@appspot.gserviceaccount.com=cloud-platform --private-network-ip=10.140.0.9
+success
+gcloud compute ssh irun-host --zone=asia-east1-a
+@irun-host~：gcloud compute instancecs start test-attach-v1 --zone=asia-east1-a    
+success
+
+vm1 ssh vm2
+wanning public ssh key file not exist
+wanning private key file not exist
+wanning you do not have an ssh key
+wanning ssh-keygen will exe to generate a key
+\n
+\n
+---
+thereafter ssh success
+
+
+
+
+ssh:
+直接ssh -o StrictHostKeyChecking=no v
+权限
+
+
+
+
+
+实验gcloud ssh
+实验ssh
+
+python:
+
+
+
+
+
+
+-------------------------------------------------------
+local ssd
+
+You cannot stop and restart an instance that has a local SSD. If you do shut down an instance with a Local SSD through the guest operating system, you will not be able to restart the instance and the data on the Local SSD will be lost.
+Because local SSDs are located on the physical machine where your virtual machine instance is running, they can be created only during the instance creation process.
+The NVMe interface provides lower CPU overhead and better performance, but it requires that you use a custom NVMe image for your virtual machine instance. The SCSI interface, though slightly less quick and efficient than the NVMe interface, is usable on any image that Compute Engine supports.
+
+gcloud compute instances create test-vm-local-ssd --machine-type=f1-micro --image-family=centos-6 --image-project=centos-cloud --zone=asia-east1-a --scopes ideas-dynamic-drilling@appspot.gserviceaccount.com=cloud-platform --local-ssd interface=scsi,device-name=lsd
+error:shared physical core
+gcloud compute instances create test-vm-local-ssd --machine-type=n1-standard-1 --image-family=centos-6 --image-project=centos-cloud --zone=asia-east1-a --scopes ideas-dynamic-drilling@appspot.gserviceaccount.com=cloud-platform --local-ssd interface=scsi,device-name=lsd
+success
+google-lsd
+
+gcloud compute instances delete test-vm-local-ssd --delete-disks=all --zone=asia-east1-a
+success
+-------------------------------------------------------
+
+
+
+
+
+tmp:
+gcloud compute instances create test-vm-local-ssd --machine-type=n1-standard-1 --image-family=centos-6 --image-project=centos-cloud --zone=us-west1-a --scopes ideas-dynamic-drilling@appspot.gserviceaccount.com=cloud-platform --local-ssd interface=scsi,device-name=l-ssd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------shell----------------------------
+ssh -o "StrictHostKeyChecking no" user@host
+
+http://stackoverflow.com/questions/13928116/write-a-shell-script-to-ssh-to-a-remote-machine-and-execute-commands
+#!/bin/bash
+USERNAME=someUser
+HOSTS="host1 host2 host3"
+SCRIPT="pwd; ls"
+for HOSTNAME in ${HOSTS} ; do
+    ssh -l ${USERNAME} ${HOSTNAME} "${SCRIPT}"
+done
+
+ssh -o StrictHostKeyChecking=no -l username hostname "pwd; ls"
+-o UserKnownHostsFile=/dev/null
+
+https://cloud.google.com/compute/docs/instance-groups/
+
+gcloud compute instances delete
+--quiet or -q
+
+
+
+
+
+
+
+
+
+
+
+
+
+machine_name=$1
+pd_name=$2
+mount_dir=$3
+echo "creating worker"
+gcloud compute instances create $machine_name --machine-type=f1-micro --image-family=centos-6 --image-project=centos-cloud --zone=asia-east1-a --scopes ideas-dynamic-drilling@appspot.gserviceaccount.com=cloud-platform
+echo "create worker done"
+gcloud compute disks create $pd_name --zone=asia-east1-a --type=pd-standard --size=11GB
+echo "create disk done"
+echo "attaching"
+gcloud compute instances attach-disk $machine_name --disk $pd_name --zone=asia-east1-a --device-name=$pd_name
+echo "attach done"
+echo "sshing"
+#gcloud compute ssh $machine_name --zone=asia-east1-a -- "pwd;ls;ls /dev/disk/by-id;  sudo mkfs.ext4 -F /dev/disk/by-id/google-$pd_name;;  sudo mkdir -p /mnt/disks/$mount_dir;  sudo mount -o discard,defaults /dev/disk/by-id/google-$pd_name /mnt/disks/$mount_dir; sudo chmod 777 /mnt/disks/$mount_dir; echo '123' > /mnt/disks/$mount_dir/a.txt"
+
+
+
+gcloud compute ssh $machine_name --zone=asia-east1-a -- "pwd;ls;ls /dev/disk/by-id;"
+echo "----------"
+gcloud compute ssh $machine_name --zone=asia-east1-a -- "sudo mkfs.ext4 -F /dev/disk/by-id/google-$pd_name;"
+
+echo "format done"
+gcloud compute ssh $machine_name --zone=asia-east1-a -- "sudo mkdir -p /mnt/disks/$mount_dir;"
+echo "mkdir done"
+gcloud compute ssh $machine_name --zone=asia-east1-a -- "sudo mount -o discard,defaults /dev/disk/by-id/google-$pd_name /mnt/disks/$mount_dir;"
+echo "mount done"
+gcloud compute ssh $machine_name --zone=asia-east1-a -- "sudo chmod 777 /mnt/disks/$mount_dir; echo '123' > /mnt/disks/$mount_dir/a.txt"

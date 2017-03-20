@@ -1,0 +1,235 @@
+git add file1
+git add file2 file3
+git commit -m "message"
+git status
+git diff
+git log    :the result will decrease when regression
+git reflog    :keep all the foot print and 31421e41
+git checkout --file    :retreat changes in workzone
+git reset HEAD file    :bring back files from tmpzone to workzone,equals to strictly going back git add---workzone file still has the changed file
+git reset --hard 3628164  or  git reset --hard HEAD^^    :regression
+git checkout -b dev
+     ||
+{ git branch dev    :new a branch
+git checkout dev   :switch branch }
+
+git branch    :view branches
+
+git merge target_branch    :bring combine the target_branch to current branch
+
+git branch -d target_branch   :delete branch
+
+master : after git merge feature ,master change,feature change follows the same automatically;
+                                  feature change ,master change follows the same automatically;
+
+
+$ git branch -d feature1
+error: The branch 'feature1' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D feature1'.
+
+
+master 在工作区修改，没add，没提交，branch2 修改，提交，，，checkout master，文件消失
+
+一个分支修改工作区，所有分支工作区均被修改，均可见；所有分支git status：待 add；
+
+master 在工作区修改，已add，没提交，branch2 与 master均待提交，，branch2 提交后，master也自动提交，不理解；
+
+master 在工作区修改，已add，已提交，branch2对该改变不可见
+
+修改冲突后自动合并，不用merge
+
+git log --graph --pretty=oneline --abbrev-commit
+
+
+git clone git@github.com:sa615153/learngit.git  :只能clone master分支
+
+除非git checkout -b dev origin/dev
+
+git push -u origin master  把本地库push到远程
+
+推送分支：git push origin master   git push origin dev
+------------------------------------------------------------------------
+
+开始
+git push 失败，原因可能是自己的文件已不是最新版，应 git pull
+git pull 失败，原因是没有指定本地dev分支与远程origin/dev分支的链接，根据提示，设置dev和origin/dev的链接：
+git branch --set-upstream dev origin/dev 接着git pull
+git pull成功，但是合并有冲突，需要手动解决，解决的方法和分支管理中的解决冲突完全一样。解决后，提交，再push
+解决冲突这个vi，只是为了让你知道一下而已。貌似
+git push origin dev
+完成
+
+因此，多人协作的工作模式通常是这样：
+首先，可以试图用git push origin branch-name推送自己的修改；
+如果推送失败，则因为远程分支比你的本地更新，需要先用git pull试图合并；
+如果合并有冲突，则解决冲突，并在本地提交；
+没有冲突或者解决掉冲突后，再用git push origin branch-name推送就能成功！
+如果git pull提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，用命令git branch --set-upstream branch-name origin/branch-name。
+这就是多人协作的工作模式，一旦熟悉了，就非常简单。
+
+
+小结
+
+查看远程库信息，使用git remote -v；
+
+本地新建的分支如果不推送到远程，对其他人就是不可见的；
+
+从本地推送分支，使用git push origin branch-name，如果推送失败，先用git pull抓取远程的新提交；
+
+在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+
+建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
+
+从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
+------------------------------------------------------------------------
+git tag v1.0
+git tag v0.9 6224937
+git tag
+git show v0.9
+还可以创建带有说明的标签，用-a指定标签名，-m指定说明文字：
+git tag -a v0.1 -m "version 0.1 released" 3628164
+用命令git show <tagname>可以看到说明文字：
+git show v0.1
+还可以通过-s用私钥签名一个标签：
+git tag -s v0.2 -m "signed version 0.2 released" fec145a
+签名采用PGP签名，因此，必须首先安装gpg（GnuPG）
+git tag -d v0.1
+
+git push origin v1.0
+或者，一次性推送全部尚未推送到远程的本地标签：
+git push origin --tags
+
+如果标签已经推送到远程，要删除远程标签就麻烦一点，先从本地删除：
+git tag -d v0.9
+  Deleted tag 'v0.9' (was 6224937)
+然后，从远程删除。删除命令也是push，但是格式如下：
+git push origin :refs/tags/v0.9
+git add file1
+git add file2 file3
+git commit -m "message"
+git status
+git diff
+git log    :the result will decrease when regression
+git reflog    :keep all the foot print and 31421e41
+git checkout --file    :retreat changes in workzone
+git reset HEAD file    :bring back files from tmpzone to workzone,equals to strictly going back git add---workzone file still has the changed file
+git reset --hard 3628164  or  git reset --hard HEAD^^    :regression
+git checkout -b dev
+     ||
+{ git branch dev    :new a branch
+git checkout dev   :switch branch }
+
+git branch    :view branches
+
+git merge target_branch    :bring combine the target_branch to current branch
+
+git branch -d target_branch   :delete branch
+
+master : after git merge feature ,master change,feature change follows the same automatically;
+                                  feature change ,master change follows the same automatically;
+
+
+$ git branch -d feature1
+error: The branch 'feature1' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D feature1'.
+
+
+master 在工作区修改，没add，没提交，branch2 修改，提交，，，checkout master，文件消失
+
+一个分支修改工作区，所有分支工作区均被修改，均可见；所有分支git status：待 add；
+
+master 在工作区修改，已add，没提交，branch2 与 master均待提交，，branch2 提交后，master也自动提交，不理解；
+
+master 在工作区修改，已add，已提交，branch2对该改变不可见
+
+修改冲突后自动合并，不用merge
+
+git log --graph --pretty=oneline --abbrev-commit
+
+
+git clone git@github.com:sa615153/learngit.git  :只能clone master分支
+
+除非git checkout -b dev origin/dev
+
+git push -u origin master  把本地库push到远程
+
+推送分支：git push origin master   git push origin dev
+------------------------------------------------------------------------
+
+开始
+git push 失败，原因可能是自己的文件已不是最新版，应 git pull
+git pull 失败，原因是没有指定本地dev分支与远程origin/dev分支的链接，根据提示，设置dev和origin/dev的链接：
+git branch --set-upstream dev origin/dev 接着git pull
+git pull成功，但是合并有冲突，需要手动解决，解决的方法和分支管理中的解决冲突完全一样。解决后，提交，再push
+解决冲突这个vi，只是为了让你知道一下而已。貌似
+git push origin dev
+完成
+
+因此，多人协作的工作模式通常是这样：
+首先，可以试图用git push origin branch-name推送自己的修改；
+如果推送失败，则因为远程分支比你的本地更新，需要先用git pull试图合并；
+如果合并有冲突，则解决冲突，并在本地提交；
+没有冲突或者解决掉冲突后，再用git push origin branch-name推送就能成功！
+如果git pull提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，用命令git branch --set-upstream branch-name origin/branch-name。
+这就是多人协作的工作模式，一旦熟悉了，就非常简单。
+
+
+小结
+
+查看远程库信息，使用git remote -v；
+
+本地新建的分支如果不推送到远程，对其他人就是不可见的；
+
+从本地推送分支，使用git push origin branch-name，如果推送失败，先用git pull抓取远程的新提交；
+
+在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+
+建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
+
+从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
+------------------------------------------------------------------------
+git tag v1.0
+git tag v0.9 6224937
+git tag
+git show v0.9
+还可以创建带有说明的标签，用-a指定标签名，-m指定说明文字：
+git tag -a v0.1 -m "version 0.1 released" 3628164
+用命令git show <tagname>可以看到说明文字：
+git show v0.1
+还可以通过-s用私钥签名一个标签：
+git tag -s v0.2 -m "signed version 0.2 released" fec145a
+签名采用PGP签名，因此，必须首先安装gpg（GnuPG）
+git tag -d v0.1
+
+git push origin v1.0
+或者，一次性推送全部尚未推送到远程的本地标签：
+git push origin --tags
+
+如果标签已经推送到远程，要删除远程标签就麻烦一点，先从本地删除：
+git tag -d v0.9
+  Deleted tag 'v0.9' (was 6224937)
+然后，从远程删除。删除命令也是push，但是格式如下：
+git push origin :refs/tags/v0.9
+
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+
+
+
+git remote add origin git@github.com:michaelliao/learngit.git
+git push -u origin master
+
+
+
+可视化
+JPang3@BGC-JPang3 MINGW64 ~/Downloads/flashgit
+$ set path="C:\Program Files\Git\bin"
+
+JPang3@BGC-JPang3 MINGW64 ~/Downloads/flashgit
+$ ~/Downloads/flashgit/gource.exe --path ~/Desktop/outer/iTesting/
+
+
+
+
+
+
