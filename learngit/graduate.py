@@ -28,3 +28,5 @@ todo doing done passed failed Investigation
 不能过程中备份
 不能过程中作报告
 
+可迁移性，server随便迁移
+连创建任务都是由脚本完成
