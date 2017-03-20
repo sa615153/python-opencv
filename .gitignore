@@ -97,5 +97,4 @@ ENV/
 *.mp4
 *.avi
 
-.idea/workspace.xml
-.idea/opencv-python-book.iml
+.idea/*
