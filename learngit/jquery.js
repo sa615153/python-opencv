@@ -1,3 +1,6 @@
+$.trim($("#ideas_lib_calc_benchmark_of_addpanel").val());
+
+
 ajax
 http://www.imooc.com/video/6161 
 http://www.imooc.com/learn/250 
@@ -178,8 +181,61 @@ return Response(data=json.dumps({'ok': True}), mimetype='application/json')
 没有严格的返回json数据，即使字符串不行，更多内容：
 https://my.oschina.net/adwangxiao/blog/78509
 
+example:
+function submit_benchmark(){
+    var new_benchmark = $('#ideas_lib_calc_benchmark').val();
+    var track = $('#track').html();
 
+    var data = {benchmark:new_benchmark,track:track}
 
+    $.ajax({
+        type:"POST",
+        url :"/user/change_benchmark",
+        dataType:"json",
+        data:JSON.stringify(data),
+        contentType: 'application/json; charset=UTF-8',
+        success:function(data){
+            if(data.result == "success"){
+                $("#message").html("change benchmark successfully");
+                $("#current_benchmark").html(new_benchmark);
+                $("#change_benchmark_div").hide();
+            }else{
+                $("#message").html("change benchmark failed");
+            }
+            $('#benchmark_confirmModal').modal('show');
+        },
+        error:function(jqXHR){
+            alert("error happens: " + jqXHR.status);
+        }
+    });
+
+}
+
+@user.route('/change_benchmark', methods=['GET', 'POST'])
+def change_benchmark():
+    jsonstr = request.get_data()
+    obj = json.loads(jsonstr)
+    new_benchmark = obj["benchmark"]
+    track = obj["track"]
+    # print track+"+"+new_benchmark
+    result = {}
+    session = Session()
+    try:
+        ict_subs = session.query(SubTask).select_from(SubTask).\
+            join(SubtaskProperty,SubtaskProperty.subtask_name == SubTask.name).\
+            filter(SubTask.major_task_track_number == track).\
+            filter(or_(SubtaskProperty.tag == 'ICT_ICT',SubtaskProperty.tag == "ICT_N")).all()
+        print ict_subs
+        for s in ict_subs:
+            s.benchmark = new_benchmark
+        session.commit()
+        result["result"] = "success"
+    except:
+        result["result"] = "failure"
+    finally:
+        session.close()
+
+    return json.dumps(result)
 
 
 
@@ -228,6 +284,8 @@ bool ip is None ?
 False
 ----------------
 mysql为空而不是null
+
+
 
 
 

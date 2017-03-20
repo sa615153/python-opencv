@@ -1452,7 +1452,7 @@ for aname, avalue in attrs.iteritems():
 attrs.pop['subdict'] -> attrs.pop('subdict')
 
 
-//遍历属性
+/////获取遍历属性
 
 假设你有一个类如
 >>> class Cls(object):
@@ -1511,3 +1511,13 @@ retval = os.getcwd()
 os.chdir(git_path)
 log = os.popen('git log --pretty=format:"%an,%h,%cr,%cd,%s" -1').read()
 os.chdir(retval)
+
+
+
+client:
+data["status"]=2
+post
+server:
+if data["status"] = "2" #false
+if data["status"] = 2   #true
+

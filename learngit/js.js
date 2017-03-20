@@ -2130,7 +2130,7 @@ function myFunction() {
 </script>                                                                 /
 
 ------------------------------------------------------------------------------
-OBJECT
+OBJECT / CONSTRUCTOR
 ------------------------------------------------------------------------------
 var person = {
     firstName:"John",
@@ -2149,7 +2149,7 @@ Using an Object Constructor
 The examples above are limited in many situations. They only create a single object.
 Sometimes we like to have an "object type" that can be used to create many objects of one type.
 The standard way to create an "object type" is to use an object constructor function:
-
+CONSTRUCTOR
 Example
 function person(first, last, age, eye) {
     this.firstName = first;
@@ -2551,6 +2551,7 @@ x.firstName;                             // Will return "John"
 Try it Yourself »
 A constructor invocation creates a new object. The new object inherits the properties and methods from its constructor.
 
+THIS
 The this keyword in the constructor does not have a value.
 The value of this will be the new object created when the function is invoked.
 

@@ -15,3 +15,16 @@
 程序衔接与状态修改
 json data 前的data=2，server就不能if data = "2"
 jenkins timestamp追踪subtask
+
+todo doing done success failure
+
+todo doing done passed failed Investigation
+
+问题：
+手动的不确定性，严格顺序
+结论生成及时性
+不能并发
+不能依赖上一阶段
+不能过程中备份
+不能过程中作报告
+
