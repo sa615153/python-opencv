@@ -16,7 +16,9 @@ distance detection:
 	亚像素级精确度的角点
 
  
+digital images, the number of pixels on the image plane (its resolution) is another important characteristic of a camera
 
+相机姿态与校准有什么联系？
 
 imshow和waitkey联合使用
 cv2.imshow('image',img)

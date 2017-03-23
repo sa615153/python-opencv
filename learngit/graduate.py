@@ -30,3 +30,7 @@ todo doing done passed failed Investigation
 
 可迁移性，server随便迁移
 连创建任务都是由脚本完成
+
+多个server开，不开client.py的server就像一个显示器，也可作备份server，client访问失败后切换server，拆分的很散
+
+失败消息传递：assign node failure  前端
