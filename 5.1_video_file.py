@@ -6,7 +6,8 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('C:/Users/JPang3/Desktop/beijing/opencv/opencv_projects/python-opencv/wildlife.wmv')
+# cap = cv2.VideoCapture('C:/Users/JPang3/Desktop/beijing/opencv/opencv_projects/python-opencv/wildlife.wmv')
+cap = cv2.VideoCapture('I:\USTC\PycharmProjects\opencv-python-book/a.mp4')
 print cap.isOpened()
 while(cap.isOpened()):
     ret, frame = cap.read()
