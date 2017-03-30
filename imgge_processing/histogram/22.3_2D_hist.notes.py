@@ -7,14 +7,13 @@ Keys:
     ESC    - exit
 '''
 
-import numpy as np
-import cv2
-
-# built-in modules
 import sys
 
-# local modules
-import video
+import cv2
+import numpy as np
+
+from video import meanshift
+
 # video 模块也是 opencv 官方文档中自带的
 if __name__ == '__main__':
 
@@ -55,7 +54,7 @@ if __name__ == '__main__':
         fn = sys.argv[1]
     except:
         fn = 0
-    cam = video.create_capture(fn, fallback='synth:bg=../data/baboon.jpg:class=chess:noise=0.05')
+    cam = meanshift.create_capture(fn, fallback='synth:bg=../data/baboon.jpg:class=chess:noise=0.05')
 
     while True:
         flag, frame = cam.read()

@@ -36,6 +36,7 @@ thresh = cv2.merge((thresh,thresh,thresh))
 res = cv2.bitwise_and(target,thresh)
 
 res = np.vstack((target,thresh,res))
+cv2.namedWindow('res',cv2.WINDOW_NORMAL)
 cv2.imwrite('res.jpg',res)
 cv2.imshow('res',res)
 cv2.waitKey(0)
