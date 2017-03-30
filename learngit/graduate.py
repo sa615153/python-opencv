@@ -28,7 +28,7 @@ todo doing done passed failed Investigation
 不能过程中备份
 不能过程中作报告
 
-可迁移性，server随便迁移
+可迁移性，server随便迁移，多个同时运行，client随便迁移，多个同时运行
 连创建任务都是由脚本完成
 
 多个server开，不开client.py的server就像一个显示器，也可作备份server，client访问失败后切换server，拆分的很散
