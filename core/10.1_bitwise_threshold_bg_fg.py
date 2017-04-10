@@ -2,8 +2,8 @@
 import cv2
 import numpy as np
 # 加载图像
-img1 = cv2.imread('C:/Users/JPang3/Desktop/beijing/opencv/opencv_projects/python-opencv/messi5.jpg')
-img2 = cv2.imread('C:/Users/JPang3/Desktop/beijing/opencv/opencv_projects/python-opencv/opencv_logo.png')
+img1 = cv2.imread('../messi5.jpg')
+img2 = cv2.imread('../opencv_logo.png')
 # I want to put logo on top-left corner, So I create a ROI
 rows,cols,channels = img2.shape
 roi = img1[0:rows, 0:cols ]

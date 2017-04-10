@@ -24,6 +24,7 @@ corners = cv2.goodFeaturesToTrack(gray,10,0.01,10)
 # np.int0 可以用来省略小数点后面的数字（非四舍五入）。
 corners = np.int0(corners)
 for i in corners:
+    print i,i.ravel()
     x,y = i.ravel()
     cv2.circle(img,(x,y),3,255,-1)
 plt.imshow(img),plt.show()
