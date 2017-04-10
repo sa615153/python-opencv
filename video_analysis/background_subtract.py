@@ -20,6 +20,7 @@ cap.release()
 cv2.destroyAllWindows()
 
 
+
 # 不可用
 kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(3,3))
 fgbg = cv2.createBackgroundSubtractorGMG()
