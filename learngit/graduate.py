@@ -34,3 +34,6 @@ todo doing done passed failed Investigation
 多个server开，不开client.py的server就像一个显示器，也可作备份server，client访问失败后切换server，拆分的很散
 
 失败消息传递：assign node failure  前端
+
+mysql master-master备份
+要想提高可用性，就要写多分数据，写多分数据会导致数据一致性问题，数据一致性的问题会引发性能问题
