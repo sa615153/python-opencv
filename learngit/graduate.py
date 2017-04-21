@@ -37,3 +37,10 @@ todo doing done passed failed Investigation
 
 mysql master-master备份
 要想提高可用性，就要写多分数据，写多分数据会导致数据一致性问题，数据一致性的问题会引发性能问题
+
+
+k 除了变为k*，再变回去，也可以分身出k2
+用id出问题回来改也用id，代码不用改
+用tracknumber当条件，回来时用tracknunber当条件，条件变多了，代码就得改
+而
+改所有的benchamrk，用的条件查找ICT_N和ICT_ICT,改lite时，条件没变，这段代码反而不用改

@@ -5373,3 +5373,17 @@ alert(check.checked + "," + check.getAttribute("checked"));
 没有到success函数却到error函数的原因：
 没有严格的返回json数据，字符串不行，更多内容：
 https://my.oschina.net/adwangxiao/blog/78509
+
+
+
+
+getElementsByName返回的是HTMLCollection，转化成数组才能map
+    remain_sub_array = document.getElementsByName("addsubcheckbox");
+    alert(typeof(remain_sub_array));
+    alert(remain_sub_array.length);
+//    alert(remain_sub_array[0]);
+    remain_sub_array = Array.prototype.slice.call(remain_sub_array);
+//    remain_sub_array = [].slice.call(remain_sub_array);
+    p = remain_sub_array.map(function(x){return x.value});
+
+    alert(JSON.stringify(p));
