@@ -9,6 +9,8 @@ import cv2
 cap = cv2.VideoCapture(0)
 
 
+print cap.isOpened()
+
 
 while(True):
     # capture frame by frame
@@ -25,11 +27,11 @@ while(True):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     #
     # display result frame
-    cv2.imshow('frame',gray)
+    cv2.imshow('frame',frame)
 
     # cv2.waitKey()
 
-    if cv2.waitKey(5)&0xFF ==ord('q'):  #
+    if cv2.waitKey(100)&0xFF ==ord('q'):  #
         break
     #
 cap.release()
