@@ -186,9 +186,12 @@ histogram
 大概是振幅越高，频率越低，幅度谱亮点周围都是振幅高的--即低频分量，除去之后剩高频分量
 
 
-
-
-
+bugs:
+	cv2.error: C:\build\master_winpack-bindings-win64-vc14-static\opencv\modules\calib3d\src\calibration.cpp:3357: error: (-215) nimages > 0 in function cv::calibrateCamera
+		http://stackoverflow.com/questions/31249037/calibrating-webcam-using-python-and-opencv-error
+		file_src = '../calibration_img/back_cam_big_grids/dataset1/'files = file_src+'*.jpg'    要加最后的'/'
+	自己的图片总是出现roi=[0,0,0,0],消除畸变的图片也是很奇怪，原因可能是重复图片和chessboard所占图片比例不够大，具体参见
+		http://stackoverflow.com/questions/36387602/strange-results-with-opencv-camera-calibration
 
 
 

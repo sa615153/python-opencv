@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import cv2
 import numpy as np
-img = cv2.imread('C:/Users/JPang3/Desktop/beijing/opencv/opencv_projects/python-opencv/img3.jpg')
+img = cv2.imread('../img3.jpg')
 
 px = img[100,100]
 print px

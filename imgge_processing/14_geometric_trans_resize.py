@@ -4,18 +4,18 @@ import numpy as np
 
 img = cv2.imread('../messi5.jpg')
 
-# # ----------------------#
-# cv2.imshow('tmp',img)   #
-# cv2.waitKey(0)          #
-# # ----------------------#
+# ----------------------#
+cv2.imshow('tmp',img)   #
+cv2.waitKey(0)          #
+# ----------------------#
 
 # 下面的 None 本应该是输出图像的尺寸，但是因为后边我们设置了缩放因子
 # 因此这里为 None
 res=cv2.resize(img,None,fx=2,fy=2,interpolation=cv2.INTER_CUBIC)
-# # ----------------------#
-# cv2.imshow('tmp',res)   #
-# cv2.waitKey(0)          #
-# # ----------------------#
+# ----------------------#
+cv2.imshow('tmp',res)   #
+cv2.waitKey(0)          #
+# ----------------------#
 
 #OR
 # 这里呢，我们直接设置输出图像的尺寸，所以不用设置缩放因子

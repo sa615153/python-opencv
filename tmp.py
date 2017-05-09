@@ -1,14 +1,5 @@
-import numpy as np
-import matplotlib_1.pyplot as plt
-import cv2
+import time
 
-x = np.arange(0, 5, 0.1);
-y = np.sin(x)
-plt.plot(x, y)
-# plt.show()
-
-print np.inf
-
-print cv2.CHAIN_APPROX_SIMPLE
-print cv2.CHAIN_APPROX_NONE
-
+print time.time()
+print type(time.time())
+print str(time.time())[0:-3]

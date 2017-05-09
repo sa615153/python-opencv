@@ -31,7 +31,7 @@ while(True):
 
     # cv2.waitKey()
 
-    if cv2.waitKey(100)&0xFF ==ord('q'):  #
+    if cv2.waitKey(100)&0xFF ==ord('q') or cv2.waitKey(100)&0xFF ==ord('q'):  #
         break
     #
 cap.release()
