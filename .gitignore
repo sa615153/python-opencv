@@ -96,5 +96,4 @@ ENV/
 #*.png
 *.mp4
 *.avi
-
-.idea/*
+.idea/*.xml

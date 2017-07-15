@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 # flann 原理未知，适合大数据，这大概是一个包含很多算法的库
+'''
+knnMatch, return best n points of img2 for each kp in img1, if those n.distances are close, means repetitive patterns,
+        such matches aren't reliable and should be removed
+
+'''
 
 # SIFT
 import numpy as np
@@ -22,6 +27,7 @@ search_params = dict(checks=50)   # or pass empty dictionary
 
 flann = cv2.FlannBasedMatcher(index_params,search_params)
 matches = flann.knnMatch(des1,des2,k=2)
+
 
 # Need to draw only good matches, so create a mask
 matchesMask = [[0,0] for i in xrange(len(matches))]
